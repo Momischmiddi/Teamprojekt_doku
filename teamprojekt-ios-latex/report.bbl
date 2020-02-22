@@ -17,36 +17,29 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{Geim2001}{article}{}
-    \name{author}{2}{}{%
-      {{hash=GAK}{%
-         family={Geim},
-         familyi={G\bibinitperiod},
-         given={A.\bibnamedelima K.},
-         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=tTHAMS}{%
-         prefix={ter},
-         prefixi={t\bibinitperiod},
-         family={Tisha},
-         familyi={T\bibinitperiod},
-         given={H.\bibnamedelima A. M.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  M\bibinitperiod\bibinitdelim S\bibinitperiod},
+  \entry{NJ}{online}{}
+    \name{author}{1}{}{%
+      {{hash=JN}{%
+         family={Joshi},
+         familyi={J\bibinitperiod},
+         given={Naveen},
+         giveni={N\bibinitperiod},
       }}%
     }
-    \strng{namehash}{GAKTHAMSt1}
-    \strng{fullhash}{GAKTHAMSt1}
+    \strng{namehash}{JN1}
+    \strng{fullhash}{JN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{pages}{736\bibrangedash 739}
-    \field{title}{Detection of earth rotation with a diamagnetically levitating
-  gyroscope}
-    \field{volume}{294--295}
-    \field{journaltitle}{Physica B: Condensed Matter}
-    \field{year}{2001}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{The Present And Future Of Computer Vision n}
+    \verb{url}
+    \verb https://www.forbes.com/sites/cognitiveworld/2019/06/26/the-present-an
+    \verb d-future-of-computer-vision/#490553c0517d
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
   \endentry
 \enddatalist
 \endinput
