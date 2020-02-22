@@ -32,10 +32,54 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{J}
     \field{sortinithash}{J}
-    \field{title}{The Present And Future Of Computer Vision n}
+    \field{title}{The Present And Future Of Computer Vision}
     \verb{url}
     \verb https://www.forbes.com/sites/cognitiveworld/2019/06/26/the-present-an
     \verb d-future-of-computer-vision/#490553c0517d
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{Ocv}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{OpenCV}
+    \verb{url}
+    \verb https://de.wikipedia.org/wiki/OpenCV
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{ScL}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Scikit-learn}
+    \verb{url}
+    \verb https://de.wikipedia.org/wiki/Scikit-learn
     \endverb
     \field{urlday}{22}
     \field{urlmonth}{02}

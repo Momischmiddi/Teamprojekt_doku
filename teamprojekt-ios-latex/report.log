@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  22 FEB 2020 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  22 FEB 2020 21:15
 entering extended mode
 **./report.tex
 (report.tex
@@ -1717,7 +1717,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 43.
-<report_cover_empty.pdf, id=46, 597.50829pt x 845.0471pt>
+<report_cover_empty.pdf, id=62, 597.50829pt x 845.0471pt>
 File: report_cover_empty.pdf Graphic file (type pdf)
 <use report_cover_empty.pdf>
 Package pdftex.def Info: report_cover_empty.pdf  used on input line 43.
@@ -1746,11 +1746,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-<bilder/camerasystem.png, id=81, 102.3825pt x 80.80188pt>
+<bilder/camerasystem.png, id=97, 192.21812pt x 191.21437pt>
 File: bilder/camerasystem.png Graphic file (type png)
 <use bilder/camerasystem.png>
 Package pdftex.def Info: bilder/camerasystem.png  used on input line 29.
-(pdftex.def)             Requested size: 153.57336pt x 121.2025pt.
+(pdftex.def)             Requested size: 192.21764pt x 191.2139pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -1760,12 +1760,12 @@ l.36
 
 
  <./bilder/camerasystem.png>]
-<bilder/calibration.png, id=87, 642.4pt x 481.8pt>
+<bilder/calibration.png, id=105, 642.4pt x 481.8pt>
 File: bilder/calibration.png Graphic file (type png)
 <use bilder/calibration.png>
 Package pdftex.def Info: bilder/calibration.png  used on input line 39.
 (pdftex.def)             Requested size: 170.71652pt x 128.03662pt.
-<bilder/helicloud.png, id=88, 330.23375pt x 287.0725pt>
+<bilder/helicloud.png, id=106, 330.23375pt x 287.0725pt>
 File: bilder/helicloud.png Graphic file (type png)
 <use bilder/helicloud.png>
 Package pdftex.def Info: bilder/helicloud.png  used on input line 41.
@@ -1837,57 +1837,101 @@ l.1 \chapter
 Kapitel 2.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-))pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.57 
-      [8
-
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 56.
+<bilder/opencv.png, id=161, 65.043pt x 80.2197pt>
+File: bilder/opencv.png Graphic file (type png)
+<use bilder/opencv.png>
+Package pdftex.def Info: bilder/opencv.png  used on input line 13.
+(pdftex.def)             Requested size: 65.04283pt x 80.2195pt.
+<bilder/scikit.png, id=163, 451.6875pt x 242.9075pt>
+File: bilder/scikit.png Graphic file (type png)
+<use bilder/scikit.png>
+Package pdftex.def Info: bilder/scikit.png  used on input line 24.
+(pdftex.def)             Requested size: 90.33589pt x 48.58063pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 \end{document}
-                    [9
+l.27 
+      [8
+
+ <./bilder/opencv.png>]) (Umsetzung.texpdfTeX warning (ext4): destination with 
+the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Umsetzung} [9 <./bilder/scikit.png>]
+Kapitel 3.
+) (Probleme.texpdfTeX warning (ext4): destination with the same identifier (nam
+e{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Probleme} [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+Kapitel 4.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \listoffigures
+                    [11
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 58.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 58.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \listoffigures
+                    [12
+
+] (report.lof)
+\tf@lof=\write7
+\openout7 = `report.lof'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.61 \end{document}
+                    [13
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: CFA7085A46A902DACEBA05EDBA75C86E;580.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+(rerunfilecheck)             Checksum: 90B1D2389C08F1D31C66C3BE981C03D1;796.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29451 strings out of 493305
- 540615 string characters out of 3129803
- 1005637 words of memory out of 3000000
- 32423 multiletter control sequences out of 15000+200000
- 65364 words of font info for 84 fonts, out of 3000000 for 9000
+ 29479 strings out of 493305
+ 541462 string characters out of 3129803
+ 1005866 words of memory out of 3000000
+ 32438 multiletter control sequences out of 15000+200000
+ 60616 words of font info for 75 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 69i,10n,73p,745b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,10n,74p,745b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\morit\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ectt1095.pk> <C:\Users\morit\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ectt0900.pk>{C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/e
-nc/dvips/base/8r.enc}<C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/urw/helvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on report.pdf (9 pages, 917998 bytes).
+ectt1095.pk>{C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/b
+ase/8r.enc}<C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/he
+lvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/urw/helvetic/uhvro8a.pfb>
+Output written on report.pdf (13 pages, 1061062 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
