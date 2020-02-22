@@ -1,6 +1,10 @@
-\documentclass[oneside]{htwg-report}
+\documentclass[oneside, german]{htwg-report}
 
 \include{header/header}
+
+\usepackage{epigraph}
+\usepackage{float}
+\usepackage{subfig}
 
 \addbibresource{./bib/report.bib}
 
@@ -22,11 +26,12 @@
 \newcommand{\verfasserC}{Moritz Schmidt}
 \newcommand{\verfasserD}{Timmo Waller-Ehrat}
 \newcommand{\verfasserE}{}
-\newcommand{\thema}{Teamprojektthema}
+\newcommand{\thema}{Mehrbildkamerasystem zur räumlichen Detektion von Modellhubschraubern}
 \newcommand{\hoschschule}{Hochschule für Technik, Wirtschaft und Gestaltung}
 \newcommand{\institut}{HTWG Konstanz, Institut für Optische Systeme}
-\newcommand{\prueferA}{Dennis Griesser}
-\newcommand{\prueferB}{Prof. Dr. Georg Umlauf}
+\newcommand{\prueferA}{Prof. Dr. Georg Umlauf}
+\newcommand{\prueferB}{Prof. Dr Matthias O. Franz}
+\newcommand{\prueferC}{Dennis Griesser}
 
 
 \title[Mehrbildkamerasystem zur räumlichen Detektion von Modellhubschraubern]{\thema}
@@ -40,6 +45,11 @@
 %\input{title}
 
 \input{extended_abstract}
+
+\tableofcontents
+\newpage
+\input{einleitung}
+\input{Technologien}
 
 
 \end{document}

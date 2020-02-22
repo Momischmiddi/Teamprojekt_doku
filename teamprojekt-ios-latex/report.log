@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  21 DEC 2019 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  22 FEB 2020 17:08
 entering extended mode
 **./report.tex
 (report.tex
@@ -117,13 +117,15 @@ File: switch.def 2018/02/14 3.18 Babel switching mechanism
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerm
-an.ldf"
-Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\germa
+n.ldf"
+Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
+phy)
 
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerm
-anb.ldf"
-Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\germa
+nb.ldf"
+Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
+aphy)
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/02/14 3.18 Babel common definitions
@@ -134,15 +136,16 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 ef")
 \bbl@dirlevel=\count101
 )
-Package babel Info: Making " an active character on input line 125.
+Package babel Info: Making " an active character on input line 139.
 ))
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
-ish.ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-))
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerm
+an.ldf"
+Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerm
+anb.ldf"
+Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
+)))
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
 y"
 Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
@@ -1467,31 +1470,65 @@ File: csquotes.cfg
 Package csquotes Info: Enabling multilingual quotes.
 Package csquotes Info: Redefining alias 'german' -> 'german/quotes'.
 ))
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epigraph\epigraph.
+sty"
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip102
+\afterepigraphskip=\skip103
+\epigraphwidth=\skip104
+\epigraphrule=\skip105
+)
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count349
+\float@exts=\toks48
+\float@box=\box49
+\@float@everytoks=\toks49
+\@floatcapt=\box50
+)
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count350
+\sf@farskip=\skip106
+\sf@captopadj=\dimen195
+\sf@capskip=\skip107
+\sf@nearskip=\skip108
+\c@subfigure=\count351
+\c@subfigure@save=\count352
+\c@lofdepth=\count353
+\c@subtable=\count354
+\c@subtable@save=\count355
+\c@lotdepth=\count356
+\sf@top=\skip109
+\sf@bottom=\skip110
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 11.
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1502,22 +1539,22 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count349
+\c@lstlisting=\count357
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen195
-\scratchbox=\box49
-\nofMPsegments=\count351
-\nofMParguments=\count352
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen196
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count358
+\scratchdimen=\dimen196
+\scratchbox=\box51
+\nofMPsegments=\count359
+\nofMParguments=\count360
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count361
+\MPscratchDim=\dimen197
+\MPnumerator=\count362
+\makeMPintoPDFobject=\count363
+\everyMPtoPDFconversion=\toks51
 )
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -1534,7 +1571,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box50
+\AtBeginShipoutBox=\box52
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1569,7 +1606,7 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 7.
+Package hyperref Info: Link coloring ON on input line 11.
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
 ty"
@@ -1579,22 +1616,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count356
+\c@section@level=\count364
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
  (report.out) (report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\engli
-sh.lbx"
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
@@ -1615,6 +1645,13 @@ Package biblatex Info: ... file 'german.lbx' found.
 n.lbx"
 File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 ))
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\germa
+n.lbx"
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1623,8 +1660,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
  (report.bbl)
-Package biblatex Info: Reference section=0 on input line 7.
-Package biblatex Info: Reference segment=0 on input line 7.
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1663,13 +1700,13 @@ r\tikz\libraries\tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 37.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 37.
-<report_cover_empty.pdf, id=6, 597.50829pt x 845.0471pt>
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 42.
+<report_cover_empty.pdf, id=46, 597.50829pt x 845.0471pt>
 File: report_cover_empty.pdf Graphic file (type pdf)
 <use report_cover_empty.pdf>
-Package pdftex.def Info: report_cover_empty.pdf  used on input line 37.
+Package pdftex.def Info: report_cover_empty.pdf  used on input line 42.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [1
 
@@ -1679,7 +1716,7 @@ Package pdftex.def Info: report_cover_empty.pdf  used on input line 37.
 
 {C:/Users/morit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./report_co
 ver_empty.pdf>]
-\GPT@outputbox=\box51
+\GPT@outputbox=\box53
 
 (extended_abstract.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 9.
@@ -1695,35 +1732,114 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
+<bilder/camerasystem.png, id=81, 102.3825pt x 80.80188pt>
+File: bilder/camerasystem.png Graphic file (type png)
+<use bilder/camerasystem.png>
+Package pdftex.def Info: bilder/camerasystem.png  used on input line 29.
+(pdftex.def)             Requested size: 153.57336pt x 121.2025pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 
+      [2
 
-LaTeX Warning: Citation 'Geim2001' on page 2 undefined on input line 28.
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 28.
-
-LaTeX Warning: Empty bibliography on input line 31.
-
+ <./bilder/camerasystem.png>]
+<bilder/helicloud.png, id=87, 330.23375pt x 287.0725pt>
+File: bilder/helicloud.png Graphic file (type png)
+<use bilder/helicloud.png>
+Package pdftex.def Info: bilder/helicloud.png  used on input line 40.
+(pdftex.def)             Requested size: 142.26378pt x 123.6753pt.
+File: bilder/helicloud.png Graphic file (type png)
+<use bilder/helicloud.png>
+Package pdftex.def Info: bilder/helicloud.png  used on input line 42.
+(pdftex.def)             Requested size: 142.26378pt x 123.6753pt.
+File: bilder/helicloud.png Graphic file (type png)
+<use bilder/helicloud.png>
+Package pdftex.def Info: bilder/helicloud.png  used on input line 48.
+(pdftex.def)             Requested size: 165.11646pt x 143.53589pt.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 \end{document}
-                    [2
+l.49 \tableofcontents
+                      [3 <./bilder/helicloud.png>] (report.toc
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
+)
+\tf@toc=\write6
+\openout6 = `report.toc'.
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 \newpage
+              [4
+
+] (einleitung.tex
+Kapitel 1.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <96> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
+
+LaTeX Warning: Citation 'Nj' on page 5 undefined on input line 17.
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 17.
+
+Overfull \hbox (8.53766pt too wide) in paragraph at lines 17--17
+ []$
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 
+      [5
+
+]) (Technologien.texpdfTeX warning (ext4): destination with the same identifier
+ (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Technologien} [6]
+Kapitel 2.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \end{document}
+                    [7
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: CFA7085A46A902DACEBA05EDBA75C86E;580.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                report
@@ -1734,20 +1850,22 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28945 strings out of 493305
- 532166 string characters out of 3129803
- 1024347 words of memory out of 3000000
- 31996 multiletter control sequences out of 15000+200000
- 25917 words of font info for 45 fonts, out of 3000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 69i,9n,73p,741b,2284s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhv
-b8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helve
-tic/uhvr8a.pfb>
-Output written on report.pdf (2 pages, 235477 bytes).
+ 29370 strings out of 493305
+ 538986 string characters out of 3129803
+ 1019038 words of memory out of 3000000
+ 32353 multiletter control sequences out of 15000+200000
+ 62612 words of font info for 83 fonts, out of 3000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 69i,10n,73p,741b,2284s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\morit\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt0900.pk>{C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/b
+ase/8r.enc}<C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/he
+lvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/urw/helvetic/uhvro8a.pfb>
+Output written on report.pdf (7 pages, 377147 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

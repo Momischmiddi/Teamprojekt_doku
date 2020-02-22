@@ -9,8 +9,8 @@
 		\begin{tabular}{p{3.2cm}p{9.6cm}}
 			Thema: & \thema \\
 			& \\
-			Teammitglieder: & \verfasserA, \verfasserB 
-			\verfasserC \verfasserD\\
+			Teammitglieder: & \verfasserA, \verfasserB, 
+			\verfasserC, \verfasserD\\
 			& \\
 			Betreuer: & \hoschschule \newline \institut \newline \prueferA, \prueferB \\
 			& \\
@@ -23,10 +23,29 @@
 \bigskip
 
 \noindent
-Extended Abstract über 2 Seiten. Beispielhafte Texte aus anderen Teamprojekten oder Abschlussarbeiten können aus dem verlinkten Dokument entnommen werden \href{http://www.ios.htwg-konstanz.de/sites/default/files/jb/annualreport17.pdf}{http://www.ios.htwg-konstanz.de/sites/default/files/jb/annualreport17.pdf}.\\
+Unser Projekt behandelt das r"aumliche Detektieren eines Modellhubschraubers. Die Detektion soll unter Laborbedingungen, das hei"st, der Helikopter befindet sich vor einer wei"sen Wand, stattfinden. Mittels der Detektion soll auf einem Bild angezeigt werden, wo sich der Mittelpunkt des Helikopters befindet. Auch die Tiefe (Entfernung zur Kamera) des Helikopters soll ermittelt werden. F"ur diese Detektion sollen zwei oder mehr Kameras verwendet werden. Bei diesen handelt es sich um HIERKAMERAEINF"UGEN, die mit dem Computer "uber ein FireWire-Kabel verbunden sind.\newline
 
-\noindent Dieser Text soll als Dokumentation des Teamprojekts für den zukünftigen Jahresbericht des Institut für Optische Systeme dienen. Gerne können auch Bilder eingefügt werden. Ebenso wichtig ist es auch die Referenzen aufzulisten wie z.B. \cite{Geim2001}. Die Referenzen werden mit Biber erstellt.
+\begin{figure}[H]
+	\includegraphics[scale=1.5]{bilder/camerasystem}
+	\caption[Kamera-System]{Kamera-System}
+\end{figure}
 
 
-\printbibliography[title={Referenzen}, heading=subbibliography]
+Das Projekt wurde erfolgreich umgesetzt.
+Mittels zwei Kameras, die auf einer geraden Linie angebracht sind, kann der Mittelpunkt des Helikopters und dessen Abstand zur Kamera ermittelt werden.\newline
+Unser Programm kalibriert als erstes die Kameras einzeln und anschlie"send zu einander. Das Kalibrieren erfolgt "uber ein Schachbrett-Muster. Sind die Kameras zueinander kalibriert, kann mittels eines Feature-Detektors eine Punktewolke des Helikopters generiert und der Mittelpunkt berechnet werden.
+
+\begin{figure}%
+	\centering
+	\subfloat[label 1]{{\includegraphics[width=5cm]{bilder/helicloud} }}%
+	\qquad
+	\subfloat[label 2]{{\includegraphics[width=5cm]{bilder/helicloud} }}%
+	\caption{2 Figures side by side}%
+	\label{fig:example}%
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.5]{bilder/helicloud}
+	\caption[Helikopter-Punktewolke]{Helikopter-Punktewolke}
+\end{figure}
 
