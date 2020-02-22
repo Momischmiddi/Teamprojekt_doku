@@ -1,0 +1,52 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Geim2001}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GAK}{%
+         family={Geim},
+         familyi={G\bibinitperiod},
+         given={A.\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=tTHAMS}{%
+         prefix={ter},
+         prefixi={t\bibinitperiod},
+         family={Tisha},
+         familyi={T\bibinitperiod},
+         given={H.\bibnamedelima A. M.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAKTHAMSt1}
+    \strng{fullhash}{GAKTHAMSt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{pages}{736\bibrangedash 739}
+    \field{title}{Detection of earth rotation with a diamagnetically levitating
+  gyroscope}
+    \field{volume}{294--295}
+    \field{journaltitle}{Physica B: Condensed Matter}
+    \field{year}{2001}
+  \endentry
+\enddatalist
+\endinput

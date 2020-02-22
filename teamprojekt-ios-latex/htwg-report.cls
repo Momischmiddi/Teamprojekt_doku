@@ -84,14 +84,6 @@
 
 \RequirePackage{xkeyval}
 
-%% BIB
-\RequirePackage[
-	backend=biber,
-	style=alphabetic,
-	sorting=ynt
-]{biblatex}
-
-
 \ifxetex
     %% If the document is compiled with XeLaTeX, we load the
     %% HTWG CI style font: swis721 Regular and Bold (sans serif)

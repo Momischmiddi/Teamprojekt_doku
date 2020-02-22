@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  22 FEB 2020 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  22 FEB 2020 20:16
 entering extended mode
 **./report.tex
 (report.tex
@@ -837,260 +837,23 @@ sty"
 Package: titletoc 2019/10/16 v2.13 TOC entries
 \ttl@leftsep=\dimen193
 )
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-sty"
-Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
-
-
-LaTeX Warning: You have requested, on input line 37, version
-               `2018/01/30' of package pdftexcmds,
-               but only version
-               `2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)'
-               is available.
-
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
-sty"
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count152
-)
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count153
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count154
-\c@listtotal=\count155
-\c@listcount=\count156
-\c@liststart=\count157
-\c@liststop=\count158
-\c@citecount=\count159
-\c@citetotal=\count160
-\c@multicitecount=\count161
-\c@multicitetotal=\count162
-\c@instcount=\count163
-\c@maxnames=\count164
-\c@minnames=\count165
-\c@maxitems=\count166
-\c@minitems=\count167
-\c@citecounter=\count168
-\c@maxcitecounter=\count169
-\c@savedcitecounter=\count170
-\c@uniquelist=\count171
-\c@uniquename=\count172
-\c@refsection=\count173
-\c@refsegment=\count174
-\c@maxextratitle=\count175
-\c@maxextratitleyear=\count176
-\c@maxextraname=\count177
-\c@maxextradate=\count178
-\c@maxextraalpha=\count179
-\c@abbrvpenalty=\count180
-\c@highnamepenalty=\count181
-\c@lownamepenalty=\count182
-\c@maxparens=\count183
-\c@parenlevel=\count184
-\blx@tempcnta=\count185
-\blx@tempcntb=\count186
-\blx@tempcntc=\count187
-\blx@maxsection=\count188
-\blx@maxsegment@0=\count189
-\blx@notetype=\count190
-\blx@parenlevel@text=\count191
-\blx@parenlevel@foot=\count192
-\blx@sectionciteorder@0=\count193
-\blx@entrysetcounter=\count194
-\labelnumberwidth=\skip67
-\labelalphawidth=\skip68
-\biblabelsep=\skip69
-\bibitemsep=\skip70
-\bibnamesep=\skip71
-\bibinitsep=\skip72
-\bibparsep=\skip73
-\bibhang=\skip74
-\blx@bcfin=\read2
-\blx@bcfout=\write4
-\blx@langwohyphens=\language76
-\c@mincomprange=\count195
-\c@maxcomprange=\count196
-\c@mincompwidth=\count197
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.de
-f"
-File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count198
-\c@savedafterword=\count199
-\c@annotator=\count266
-\c@savedannotator=\count267
-\c@author=\count268
-\c@savedauthor=\count269
-\c@bookauthor=\count270
-\c@savedbookauthor=\count271
-\c@commentator=\count272
-\c@savedcommentator=\count273
-\c@editor=\count274
-\c@savededitor=\count275
-\c@editora=\count276
-\c@savededitora=\count277
-\c@editorb=\count278
-\c@savededitorb=\count279
-\c@editorc=\count280
-\c@savededitorc=\count281
-\c@foreword=\count282
-\c@savedforeword=\count283
-\c@holder=\count284
-\c@savedholder=\count285
-\c@introduction=\count286
-\c@savedintroduction=\count287
-\c@namea=\count288
-\c@savednamea=\count289
-\c@nameb=\count290
-\c@savednameb=\count291
-\c@namec=\count292
-\c@savednamec=\count293
-\c@translator=\count294
-\c@savedtranslator=\count295
-\c@shortauthor=\count296
-\c@savedshortauthor=\count297
-\c@shorteditor=\count298
-\c@savedshorteditor=\count299
-\c@labelname=\count300
-\c@savedlabelname=\count301
-\c@institution=\count302
-\c@savedinstitution=\count303
-\c@lista=\count304
-\c@savedlista=\count305
-\c@listb=\count306
-\c@savedlistb=\count307
-\c@listc=\count308
-\c@savedlistc=\count309
-\c@listd=\count310
-\c@savedlistd=\count311
-\c@liste=\count312
-\c@savedliste=\count313
-\c@listf=\count314
-\c@savedlistf=\count315
-\c@location=\count316
-\c@savedlocation=\count317
-\c@organization=\count318
-\c@savedorganization=\count319
-\c@origlocation=\count320
-\c@savedoriglocation=\count321
-\c@origpublisher=\count322
-\c@savedorigpublisher=\count323
-\c@publisher=\count324
-\c@savedpublisher=\count325
-\c@language=\count326
-\c@savedlanguage=\count327
-\c@origlanguage=\count328
-\c@savedoriglanguage=\count329
-\c@pageref=\count330
-\c@savedpageref=\count331
-\shorthandwidth=\skip75
-\shortjournalwidth=\skip76
-\shortserieswidth=\skip77
-\shorttitlewidth=\skip78
-\shortauthorwidth=\skip79
-\shorteditorwidth=\skip80
-\locallabelnumberwidth=\skip81
-\locallabelalphawidth=\skip82
-\localshorthandwidth=\skip83
-\localshortjournalwidth=\skip84
-\localshortserieswidth=\skip85
-\localshorttitlewidth=\skip86
-\localshortauthorwidth=\skip87
-\localshorteditorwidth=\skip88
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compa
-t.def"
-File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-def"
-File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count332
-\c@textcitetotal=\count333
-\c@textcitemaxnames=\count334
-\c@biburlbigbreakpenalty=\count335
-\c@biburlbreakpenalty=\count336
-\c@biburlnumpenalty=\count337
-\c@biburlucpenalty=\count338
-\c@biburllcpenalty=\count339
-\biburlbigskip=\muskip12
-\biburlnumskip=\muskip13
-\biburlucskip=\muskip14
-\biburllcskip=\muskip15
-\c@smartand=\count340
-)
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\alpha
-betic.bbx"
-File: alphabetic.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
-ard.bbx"
-File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count341
-\c@bbx:relatedtotal=\count342
-))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\alpha
-betic.cbx"
-File: alphabetic.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-cfg"
-File: biblatex.cfg 
-))
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-\@cover@imagewidth=\skip89
-\@cover@spinewidth=\skip90
-\@cover@frontboxwidth=\skip91
-\@cover@frontboxheight=\skip92
-\@cover@fronttextwidth=\skip93
-\@cover@fronttextheight=\skip94
-\@cover@backboxwidth=\skip95
-\@cover@backboxheight=\skip96
-\@cover@backtextwidth=\skip97
-\@cover@backtextheight=\skip98
-\@cover@x=\skip99
-\@cover@y=\skip100
-\@cover@margin=\skip101
-Package hyperref Info: Option `colorlinks' set `true' on input line 554.
+\@cover@imagewidth=\skip67
+\@cover@spinewidth=\skip68
+\@cover@frontboxwidth=\skip69
+\@cover@frontboxheight=\skip70
+\@cover@fronttextwidth=\skip71
+\@cover@fronttextheight=\skip72
+\@cover@backboxwidth=\skip73
+\@cover@backboxheight=\skip74
+\@cover@backtextwidth=\skip75
+\@cover@backtextheight=\skip76
+\@cover@x=\skip77
+\@cover@y=\skip78
+\@cover@margin=\skip79
+Package hyperref Info: Option `colorlinks' set `true' on input line 546.
 )
 \@input{header/header.aux}
 \openout2 = `header/header.aux'.
@@ -1448,12 +1211,18 @@ Now handling font encoding PD1 ...
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
 sty"
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count343
-\csq@gtype=\count344
-\csq@glevel=\count345
-\csq@qlevel=\count346
-\csq@maxlvl=\count347
-\csq@tshold=\count348
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count152
+)
+\csq@reset=\count153
+\csq@gtype=\count154
+\csq@glevel=\count155
+\csq@qlevel=\count156
+\csq@maxlvl=\count157
+\csq@tshold=\count158
 \csq@ltx@everypar=\toks47
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
@@ -1473,14 +1242,14 @@ Package csquotes Info: Redefining alias 'german' -> 'german/quotes'.
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epigraph\epigraph.
 sty"
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
-\beforeepigraphskip=\skip102
-\afterepigraphskip=\skip103
-\epigraphwidth=\skip104
-\epigraphrule=\skip105
+\beforeepigraphskip=\skip80
+\afterepigraphskip=\skip81
+\epigraphwidth=\skip82
+\epigraphrule=\skip83
 )
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count349
+\c@float@type=\count159
 \float@exts=\toks48
 \float@box=\box49
 \@float@everytoks=\toks49
@@ -1488,40 +1257,282 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count350
-\sf@farskip=\skip106
+\c@KVtest=\count160
+\sf@farskip=\skip84
 \sf@captopadj=\dimen195
-\sf@capskip=\skip107
-\sf@nearskip=\skip108
-\c@subfigure=\count351
-\c@subfigure@save=\count352
-\c@lofdepth=\count353
-\c@subtable=\count354
-\c@subtable@save=\count355
-\c@lotdepth=\count356
-\sf@top=\skip109
-\sf@bottom=\skip110
+\sf@capskip=\skip85
+\sf@nearskip=\skip86
+\c@subfigure=\count161
+\c@subfigure@save=\count162
+\c@lofdepth=\count163
+\c@subtable=\count164
+\c@subtable@save=\count165
+\c@lotdepth=\count166
+\sf@top=\skip87
+\sf@bottom=\skip88
 )
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+sty"
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+
+LaTeX Warning: You have requested, on input line 37, version
+               `2018/01/30' of package pdftexcmds,
+               but only version
+               `2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)'
+               is available.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count167
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count168
+\c@listtotal=\count169
+\c@listcount=\count170
+\c@liststart=\count171
+\c@liststop=\count172
+\c@citecount=\count173
+\c@citetotal=\count174
+\c@multicitecount=\count175
+\c@multicitetotal=\count176
+\c@instcount=\count177
+\c@maxnames=\count178
+\c@minnames=\count179
+\c@maxitems=\count180
+\c@minitems=\count181
+\c@citecounter=\count182
+\c@maxcitecounter=\count183
+\c@savedcitecounter=\count184
+\c@uniquelist=\count185
+\c@uniquename=\count186
+\c@refsection=\count187
+\c@refsegment=\count188
+\c@maxextratitle=\count189
+\c@maxextratitleyear=\count190
+\c@maxextraname=\count191
+\c@maxextradate=\count192
+\c@maxextraalpha=\count193
+\c@abbrvpenalty=\count194
+\c@highnamepenalty=\count195
+\c@lownamepenalty=\count196
+\c@maxparens=\count197
+\c@parenlevel=\count198
+\blx@tempcnta=\count199
+\blx@tempcntb=\count266
+\blx@tempcntc=\count267
+\blx@maxsection=\count268
+\blx@maxsegment@0=\count269
+\blx@notetype=\count270
+\blx@parenlevel@text=\count271
+\blx@parenlevel@foot=\count272
+\blx@sectionciteorder@0=\count273
+\blx@entrysetcounter=\count274
+\labelnumberwidth=\skip89
+\labelalphawidth=\skip90
+\biblabelsep=\skip91
+\bibitemsep=\skip92
+\bibnamesep=\skip93
+\bibinitsep=\skip94
+\bibparsep=\skip95
+\bibhang=\skip96
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\blx@langwohyphens=\language76
+\c@mincomprange=\count275
+\c@maxcomprange=\count276
+\c@mincompwidth=\count277
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.de
+f"
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count278
+\c@savedafterword=\count279
+\c@annotator=\count280
+\c@savedannotator=\count281
+\c@author=\count282
+\c@savedauthor=\count283
+\c@bookauthor=\count284
+\c@savedbookauthor=\count285
+\c@commentator=\count286
+\c@savedcommentator=\count287
+\c@editor=\count288
+\c@savededitor=\count289
+\c@editora=\count290
+\c@savededitora=\count291
+\c@editorb=\count292
+\c@savededitorb=\count293
+\c@editorc=\count294
+\c@savededitorc=\count295
+\c@foreword=\count296
+\c@savedforeword=\count297
+\c@holder=\count298
+\c@savedholder=\count299
+\c@introduction=\count300
+\c@savedintroduction=\count301
+\c@namea=\count302
+\c@savednamea=\count303
+\c@nameb=\count304
+\c@savednameb=\count305
+\c@namec=\count306
+\c@savednamec=\count307
+\c@translator=\count308
+\c@savedtranslator=\count309
+\c@shortauthor=\count310
+\c@savedshortauthor=\count311
+\c@shorteditor=\count312
+\c@savedshorteditor=\count313
+\c@labelname=\count314
+\c@savedlabelname=\count315
+\c@institution=\count316
+\c@savedinstitution=\count317
+\c@lista=\count318
+\c@savedlista=\count319
+\c@listb=\count320
+\c@savedlistb=\count321
+\c@listc=\count322
+\c@savedlistc=\count323
+\c@listd=\count324
+\c@savedlistd=\count325
+\c@liste=\count326
+\c@savedliste=\count327
+\c@listf=\count328
+\c@savedlistf=\count329
+\c@location=\count330
+\c@savedlocation=\count331
+\c@organization=\count332
+\c@savedorganization=\count333
+\c@origlocation=\count334
+\c@savedoriglocation=\count335
+\c@origpublisher=\count336
+\c@savedorigpublisher=\count337
+\c@publisher=\count338
+\c@savedpublisher=\count339
+\c@language=\count340
+\c@savedlanguage=\count341
+\c@origlanguage=\count342
+\c@savedoriglanguage=\count343
+\c@pageref=\count344
+\c@savedpageref=\count345
+\shorthandwidth=\skip97
+\shortjournalwidth=\skip98
+\shortserieswidth=\skip99
+\shorttitlewidth=\skip100
+\shortauthorwidth=\skip101
+\shorteditorwidth=\skip102
+\locallabelnumberwidth=\skip103
+\locallabelalphawidth=\skip104
+\localshorthandwidth=\skip105
+\localshortjournalwidth=\skip106
+\localshortserieswidth=\skip107
+\localshorttitlewidth=\skip108
+\localshortauthorwidth=\skip109
+\localshorteditorwidth=\skip110
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compa
+t.def"
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-bibte
+x.def"
+File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+def"
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count346
+\c@textcitetotal=\count347
+\c@textcitemaxnames=\count348
+\c@biburlbigbreakpenalty=\count349
+\c@biburlbreakpenalty=\count350
+\c@biburlnumpenalty=\count351
+\c@biburlucpenalty=\count352
+\c@biburllcpenalty=\count353
+\biburlbigskip=\muskip12
+\biburlnumskip=\muskip13
+\biburlucskip=\muskip14
+\biburllcskip=\muskip15
+\c@smartand=\count354
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numer
+ic.bbx"
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
+ard.bbx"
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count355
+\c@bbx:relatedtotal=\count356
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\numer
+ic.cbx"
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+cfg"
+File: biblatex.cfg 
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 12.
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1606,7 +1617,7 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 11.
+Package hyperref Info: Link coloring ON on input line 12.
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
 ty"
@@ -1618,9 +1629,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count364
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
  (report.out) (report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
@@ -1655,13 +1666,16 @@ File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `report.bcf'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `report-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
  (report.bbl)
-Package biblatex Info: Reference section=0 on input line 11.
-Package biblatex Info: Reference segment=0 on input line 11.
+Package biblatex Info: Reference section=0 on input line 12.
+Package biblatex Info: Reference segment=0 on input line 12.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1700,13 +1714,13 @@ r\tikz\libraries\tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 43.
 <report_cover_empty.pdf, id=46, 597.50829pt x 845.0471pt>
 File: report_cover_empty.pdf Graphic file (type pdf)
 <use report_cover_empty.pdf>
-Package pdftex.def Info: report_cover_empty.pdf  used on input line 42.
+Package pdftex.def Info: report_cover_empty.pdf  used on input line 43.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [1
 
@@ -1772,7 +1786,7 @@ cloud.png>])pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \tableofcontents
+l.51 \tableofcontents
                       [4
 
 ] (report.toc
@@ -1786,7 +1800,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \newpage
+l.52 \newpage
               [5
 
 ] (einleitung.tex
@@ -1835,24 +1849,34 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \end{document}
-                    [8
+l.59 
+      [8
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 58.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \end{document}
+                    [9
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
  (report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: CFA7085A46A902DACEBA05EDBA75C86E;580.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
 
-Package biblatex Warning: Please (re)run Biber on the file:
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                report
 (biblatex)                and rerun LaTeX afterwards.
 
@@ -1861,22 +1885,22 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29378 strings out of 493305
- 539223 string characters out of 3129803
- 1019038 words of memory out of 3000000
- 32357 multiletter control sequences out of 15000+200000
+ 29449 strings out of 493305
+ 540618 string characters out of 3129803
+ 1005655 words of memory out of 3000000
+ 32423 multiletter control sequences out of 15000+200000
  62612 words of font info for 83 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 69i,10n,73p,741b,2284s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,10n,73p,745b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\morit\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ectt0900.pk>{C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/b
 ase/8r.enc}<C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/he
 lvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/urw/helvetic/uhvro8a.pfb>
-Output written on report.pdf (8 pages, 904166 bytes).
+Output written on report.pdf (9 pages, 906823 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

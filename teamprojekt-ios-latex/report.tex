@@ -5,8 +5,9 @@
 \usepackage{epigraph}
 \usepackage{float}
 \usepackage{subfig}
+\usepackage[backend=bibtex]{biblatex}
 
-\addbibresource{./bib/report.bib}
+\addbibresource{report.bib}
 
 \begin{document}
 
@@ -52,6 +53,9 @@
 \input{einleitung}
 \input{Technologien}
 
+\cite{Geim2001}
+
+\printbibliography
 
 \end{document}
 
