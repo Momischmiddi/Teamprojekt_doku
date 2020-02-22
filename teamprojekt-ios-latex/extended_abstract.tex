@@ -30,22 +30,17 @@ Unser Projekt behandelt das r"aumliche Detektieren eines Modellhubschraubers. Di
 	\caption[Kamera-System]{Kamera-System}
 \end{figure}
 
-
-Das Projekt wurde erfolgreich umgesetzt.
+\noindent Das Projekt wurde erfolgreich umgesetzt.
 Mittels zwei Kameras, die auf einer geraden Linie angebracht sind, kann der Mittelpunkt des Helikopters und dessen Abstand zur Kamera ermittelt werden.\newline
 Unser Programm kalibriert als erstes die Kameras einzeln und anschlie"send zu einander. Das Kalibrieren erfolgt "uber ein Schachbrett-Muster. Sind die Kameras zueinander kalibriert, kann mittels eines Feature-Detektors eine Punktewolke des Helikopters generiert und der Mittelpunkt berechnet werden.
 
 \begin{figure}%
 	\centering
-	\subfloat[label 1]{{\includegraphics[width=5cm]{bilder/helicloud} }}%
+	\subfloat[Kamera-Kalibrierung]{{\includegraphics[width=6cm]{bilder/calibration} }}%
 	\qquad
-	\subfloat[label 2]{{\includegraphics[width=5cm]{bilder/helicloud} }}%
+	\subfloat[Helikopter-Punktewolke]{{\includegraphics[width=6cm]{bilder/helicloud} }}%
 	\caption{2 Figures side by side}%
 	\label{fig:example}%
 \end{figure}
-
-\begin{figure}[H]
-	\includegraphics[scale=0.5]{bilder/helicloud}
-	\caption[Helikopter-Punktewolke]{Helikopter-Punktewolke}
-\end{figure}
+\noindent Eine m"ogliche Erweiterung des Projekts w"are das Kalibrieren von zwei Stereo-Systemen zu einander, um eine noch h"ohere Genauigkeit zu erlangen. Dies wurde versucht umzusetzen, ist allerdings gescheitert.
 

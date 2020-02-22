@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  22 FEB 2020 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  22 FEB 2020 17:35
 entering extended mode
 **./report.tex
 (report.tex
@@ -1741,30 +1741,41 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 
+l.36 
       [2
 
 
  <./bilder/camerasystem.png>]
-<bilder/helicloud.png, id=87, 330.23375pt x 287.0725pt>
+<bilder/calibration.png, id=87, 642.4pt x 481.8pt>
+File: bilder/calibration.png Graphic file (type png)
+<use bilder/calibration.png>
+Package pdftex.def Info: bilder/calibration.png  used on input line 39.
+(pdftex.def)             Requested size: 170.71652pt x 128.03662pt.
+<bilder/helicloud.png, id=88, 330.23375pt x 287.0725pt>
 File: bilder/helicloud.png Graphic file (type png)
 <use bilder/helicloud.png>
-Package pdftex.def Info: bilder/helicloud.png  used on input line 40.
-(pdftex.def)             Requested size: 142.26378pt x 123.6753pt.
-File: bilder/helicloud.png Graphic file (type png)
-<use bilder/helicloud.png>
-Package pdftex.def Info: bilder/helicloud.png  used on input line 42.
-(pdftex.def)             Requested size: 142.26378pt x 123.6753pt.
-File: bilder/helicloud.png Graphic file (type png)
-<use bilder/helicloud.png>
-Package pdftex.def Info: bilder/helicloud.png  used on input line 48.
-(pdftex.def)             Requested size: 165.11646pt x 143.53589pt.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
-been already used, duplicate ignored
+Package pdftex.def Info: bilder/helicloud.png  used on input line 41.
+(pdftex.def)             Requested size: 170.71652pt x 148.40686pt.
+
+Overfull \hbox (3.98436pt too wide) in paragraph at lines 45--46
+\T1/phv/m/n/10.95 Eine mög-li-che Er-wei-te-rung des Pro-jekts wä-re das Ka-li-
+brie-ren von zwei Stereo-Systemen
+ []
+
+) (abstract.texpdfTeX warning (ext4): destination with the same identifier (nam
+e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \tableofcontents
-                      [3 <./bilder/helicloud.png>] (report.toc
+l.2 \chapter
+            *{Abstract} [3 <./bilder/calibration.png (PNG copy)> <./bilder/heli
+cloud.png>])pdfTeX warning (ext4): destination with the same identifier (name{p
+age.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 \tableofcontents
+                      [4
+
+] (report.toc
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
 )
@@ -1775,8 +1786,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \newpage
-              [4
+l.51 \newpage
+              [5
 
 ] (einleitung.tex
 Kapitel 1.
@@ -1792,7 +1803,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--10
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
 
-LaTeX Warning: Citation 'Nj' on page 5 undefined on input line 17.
+LaTeX Warning: Citation 'Nj' on page 6 undefined on input line 17.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 17.
@@ -1806,14 +1817,14 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.23 
-      [5
+      [6
 
 ]) (Technologien.texpdfTeX warning (ext4): destination with the same identifier
  (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Technologien} [6]
+            {Technologien} [7]
 Kapitel 2.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
@@ -1824,22 +1835,22 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \end{document}
-                    [7
+l.56 \end{document}
+                    [8
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
  (report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: CFA7085A46A902DACEBA05EDBA75C86E;580.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                report
@@ -1850,10 +1861,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29370 strings out of 493305
- 538986 string characters out of 3129803
+ 29378 strings out of 493305
+ 539223 string characters out of 3129803
  1019038 words of memory out of 3000000
- 32353 multiletter control sequences out of 15000+200000
+ 32357 multiletter control sequences out of 15000+200000
  62612 words of font info for 83 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  69i,10n,73p,741b,2284s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1863,9 +1874,9 @@ ase/8r.enc}<C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/he
 lvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/urw/helvetic/uhvro8a.pfb>
-Output written on report.pdf (7 pages, 377147 bytes).
+Output written on report.pdf (8 pages, 904166 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
