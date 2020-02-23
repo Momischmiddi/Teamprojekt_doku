@@ -41,14 +41,14 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>report.aux</file>
-      <file>report-blx.bib</file>
+      <file>test.aux</file>
+      <file>test-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>report.bbl</file>
+      <file>test.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -63,28 +63,27 @@
       <file>ngerman.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>bibtex</generic>
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>report</infile>
+      <infile>test</infile>
     </cmdline>
     <input>
-      <file>report.aux</file>
+      <file>test.aux</file>
     </input>
     <output>
-      <file>report.bbl</file>
+      <file>test.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>report.bbl</file>
+      <file>test.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>report.aux</file>
-      <file>report-blx.bib</file>
+      <file>test.aux</file>
+      <file>test-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>report.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

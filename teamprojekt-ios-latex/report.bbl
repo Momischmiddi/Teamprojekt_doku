@@ -136,6 +136,28 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{extr}{online}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Springer},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Das Kameramodell}
+    \verb{url}
+    \verb https://link.springer.com/content/pdf/10.1007%2F3-540-27473-1_3.pdf
+    \endverb
+    \field{urlday}{23}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{Ocv}{online}{}
     \name{author}{1}{}{%
       {{hash=W}{%

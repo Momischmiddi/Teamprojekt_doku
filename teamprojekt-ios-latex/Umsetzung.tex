@@ -16,7 +16,7 @@ F"ur eine Messung, bei der der Fehler minimiert werden soll, ist das Kalibrieren
 
 \begin{description}
 	\item[Intrinsische Parameter]
-	Bezeichnen die Abbildung von 3D-Punkten im Kamerakoordinatensystem auf den 2D Sensor der Kamera.
+	Bezeichnen die Abbildung von 3D-Punkten im Kamerakoordinatensystem auf den 2D-Sensor der Kamera. Es sind Informationen der Kamera selbst, die unabh"angig davon sind, wo sich die Kamera befindet und wie diese ausgerichtet ist \cite{Intr}.
 	
 	\item[Extrinsische Parameter]
 	Die r"aumliche Lage und Orientierung der Kamera zu einem Referenzkoordinatensystem, d.h. die Rotation und Translation \cite{cal} \cite{extr}.
@@ -24,15 +24,26 @@ F"ur eine Messung, bei der der Fehler minimiert werden soll, ist das Kalibrieren
 
 \noindent Da es ich bei dem System um ein Stereokamera-System handelt, ist die Kalibrierung von diesem etwas komplizierter.\newline
 Zuerst m"ussen die Kameras gesondert kalibriert werden. Dies wird mit der Funktion \textit{calibrateCamera} von OpenCV durchgef"uhrt. F"ur die Kalibrierung wird ein Schachbrett-Muster verwendet. Wichtig ist, dass bei der Kalibrierung beide Kameras dasselbe Bild verwenden. F"ur die Erkennung des Schachbretts wird die OpenCV-Funktion \textit{findChessboardCorners} verwendet. Diese liefert die Objekt- und Bild-Punkte der Aufnahme. Bei den Objekt-Punkten handelt es sich um die 3D-Punkte des Bildes, bei den Bild-Punkten um die 2D-Punkte \cite{OcvD}.
-\noindent F"ur eine m"oglichst genaue Kalibrierung werden 50 Bilder verwendet. Anhand dieser Bilder wird jede Kamera mittels \textit{calibrateCamera} kalibriert.\newline
-Die Ergebnisse dieses Vorgangs werden auf dem Computer gespeichert, sodass dieser nicht wiederholt werden muss.\newline
-Anschlie"send wird das Ergebnis dieser Kalibrierungen an die OpenCV-Funktion \textit{stereoCalibrate} "ubergeben.
+\noindent F"ur eine m"oglichst genaue Kalibrierung werden 50 Bilder verwendet. Anhand dieser wird jede Kamera mittels \textit{calibrateCamera} kalibriert.\newline
+Diese Funktion liefert die intrinsisches Parameter in Form von einer 3x3 Kamera-Matrix
+
+\begin{figure}[H]
+	\includegraphics[scale=0.75]{bilder/matrix}
+\end{figure}
+
+\noindent Wobei $f_{x}$ und $f_{y}$ die Brennweite in Pixeln und $c_{x}$ $c_{y}$ ein Hauptpunkt, der normalerweise in der Bildmitte liegt, ist.
+
+\noindent Die Ergebnisse dieses Vorgangs werden auf dem Computer gespeichert, sodass dieser nicht wiederholt werden muss.\newline
+\noindent Anschlie"send wird das Ergebnis der Kalibrierungen an die OpenCV-Funktion \textit{stereoCalibrate} "ubergeben.
 
 
 \begin{figure}[H]
 	\includegraphics[scale=0.4]{bilder/calibration}
 	\caption[Kalibrierung]{Kalibrierung}
 \end{figure}
+
+\section{Stereo-Kalibrierung}
+\label{sec:stereokalibrierun}
 
 \subsection{Fehler "Uberpr"ufung}
 \label{sec:fehlertest}
