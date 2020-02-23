@@ -41,6 +41,30 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{VZ1}{online}{}
+    \name{author}{1}{}{%
+      {{hash=JI}{%
+         family={Jahr},
+         familyi={J\bibinitperiod},
+         given={Ingmar},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JI1}
+    \strng{fullhash}{JI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{Verzeichnung}
+    \verb{url}
+    \verb https://www.invision-news.de/allgemein/kamerakalibrierung/
+    \endverb
+    \field{urlday}{23}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{NJ}{online}{}
     \name{author}{1}{}{%
       {{hash=JN}{%
@@ -62,6 +86,30 @@
     \verb d-future-of-computer-vision/#490553c0517d
     \endverb
     \field{urlday}{22}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{cal}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MGR}{%
+         family={Müller},
+         familyi={M\bibinitperiod},
+         given={Georg\bibnamedelima Rupert},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGR1}
+    \strng{fullhash}{MGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Kalibrierung}
+    \verb{url}
+    \verb https://www.unibw.de/tas/forschung/kalibrierung-von-kameras/view
+    \endverb
+    \field{urlday}{23}
     \field{urlmonth}{02}
     \field{urlyear}{2020}
   \endentry

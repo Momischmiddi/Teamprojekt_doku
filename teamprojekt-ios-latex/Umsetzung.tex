@@ -4,7 +4,7 @@
 \section{Kalibrierung}
 \label{sec:kalibrierung}
 
-F"ur eine Messung, bei der der Fehler minimiert werden soll, ist das Kalibrieren der Kameras unumg"anglich. Durch die Linse einer Kamera entsteht eine tonnenf"ormige Verzeichnung \cite{VZ}. Durch die Kalibrierung der Kamera kann diese kompensiert werden.\newline
+F"ur eine Messung, bei der der Fehler minimiert werden soll, ist das Kalibrieren der Kameras unumg"anglich. Durch die Linse einer Kamera entsteht eine tonnenf"ormige Verzeichnung. Diese Fehler sind meist so klein, dass sie vom menschlichen Auge nicht erfasst werden k"onnen \cite{VZ} \cite{VZ1}. Durch die Kalibrierung der Kamera k"onnen diese kompensiert werden.\newline
 
 \begin{figure}[H]
 	\includegraphics[scale=0.45]{bilder/verzeichnung}
@@ -12,19 +12,18 @@ F"ur eine Messung, bei der der Fehler minimiert werden soll, ist das Kalibrieren
 	\small Quelle: \url{http://www.fotokurs-bremen.de/wp-content/uploads/2016/11/Objektiv-Verzeichnung.jpg}
 \end{figure}
 
-\noindent Durch die Kamerakalibrierung werden mehrere Parameter bestimmt:
+\noindent Durch die Kamerakalibrierung werden folgende Parameter bestimmt:
 
 \begin{description}
 	\item[Intrinsische Parameter]
-	Sind kameraspezifische Parameter. Hier bei handelt es sich um Hardwareeigenschaften der Kamera.\newline
-	Das Berechnen der intrinsischen Werte ist essentiell für das Eliminieren der Verzeichnung der Linse. Dadurch kann eine 3D-Punkteberechnung stattfinden.
+	Bezeichnen die Abbildung von 3D-Punkten im Kamerakoordinatensystem auf den 2D Sensor der Kamera.
 	
 	\item[Extrinsische Parameter]
-	Beschreiben die Kameraposition und Rotation in Weltkoordinaten.
+	Die r"aumliche Lage und Orientierung der Kamera zu einem Referenzkoordinatensystem, d.h. die Rotation und Translation \cite{cal} \cite{extr}.
 \end{description}
 
 \noindent Da es ich bei dem System um ein Stereokamera-System handelt, ist die Kalibrierung von diesem etwas komplizierter.\newline
-Zuerst m"ussen die Kameras gesondert kalibriert werden. Dies wird mit der Funktion \textit{calibrateCamera} von OpenCV durchgef"uhrt. F"ur die Kalibrierung wird ein Schachbrett-Muster verwendet. Wichtig ist, dass bei der Kalibrierung beide Kameras dasselbe Bild verwenden. F"ur die Erkennung des Schachbretts wird die OpenCV-Funktion \textit{findChessboardCorners} verwendet. Diese liefert die Objekt- und Bild-Punkte der Aufnahme. Bei den Objekt-Punkten handelt es sich um die 3D-Punkte des Bildes, bei den Bild-Punkten um die 2D-Punkte\cite{OcvD}.
+Zuerst m"ussen die Kameras gesondert kalibriert werden. Dies wird mit der Funktion \textit{calibrateCamera} von OpenCV durchgef"uhrt. F"ur die Kalibrierung wird ein Schachbrett-Muster verwendet. Wichtig ist, dass bei der Kalibrierung beide Kameras dasselbe Bild verwenden. F"ur die Erkennung des Schachbretts wird die OpenCV-Funktion \textit{findChessboardCorners} verwendet. Diese liefert die Objekt- und Bild-Punkte der Aufnahme. Bei den Objekt-Punkten handelt es sich um die 3D-Punkte des Bildes, bei den Bild-Punkten um die 2D-Punkte \cite{OcvD}.
 \noindent F"ur eine m"oglichst genaue Kalibrierung werden 50 Bilder verwendet. Anhand dieser Bilder wird jede Kamera mittels \textit{calibrateCamera} kalibriert.\newline
 Die Ergebnisse dieses Vorgangs werden auf dem Computer gespeichert, sodass dieser nicht wiederholt werden muss.\newline
 Anschlie"send wird das Ergebnis dieser Kalibrierungen an die OpenCV-Funktion \textit{stereoCalibrate} "ubergeben.
@@ -32,7 +31,7 @@ Anschlie"send wird das Ergebnis dieser Kalibrierungen an die OpenCV-Funktion \te
 
 \begin{figure}[H]
 	\includegraphics[scale=0.4]{bilder/calibration}
-	\caption[Stereo-Kalibrierung]{Stereo-Kalibrierung}
+	\caption[Kalibrierung]{Kalibrierung}
 \end{figure}
 
 \subsection{Fehler "Uberpr"ufung}
