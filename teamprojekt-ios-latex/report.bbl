@@ -42,6 +42,28 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{OcvD}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={OpenCV},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{OpenCV}
+    \verb{url}
+    \verb https://docs.opencv.org/3.4/dc/dbb/tutorial_py_calibration.html
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{Ocv}{online}{}
     \name{author}{1}{}{%
       {{hash=W}{%
