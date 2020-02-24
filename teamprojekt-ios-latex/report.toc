@@ -36,7 +36,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Experimente}{}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Alternative Kalibrierung}{}{section.4.1}
+\contentsline {section}{\numberline {4.1}Vereinfachte Kalibrierung}{}{section.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Tiefeninformationen}{}{section.4.2}
 \defcounter {refsection}{0}\relax 

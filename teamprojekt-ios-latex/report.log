@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  24 FEB 2020 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  24 FEB 2020 21:50
 entering extended mode
 **./report.tex
 (report.tex
@@ -1515,14 +1515,7 @@ File: biblatex.cfg
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (report.aux
-
-LaTeX Warning: Label `fig:awesome_image1' multiply defined.
-
-
-LaTeX Warning: Label `fig:awesome_image2' multiply defined.
-
-)
+ (report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1540,7 +1533,8 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 14.
- ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1723,7 +1717,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 44.
-<report_cover_empty.pdf, id=86, 597.50829pt x 845.0471pt>
+<report_cover_empty.pdf, id=94, 597.50829pt x 845.0471pt>
 File: report_cover_empty.pdf Graphic file (type pdf)
 <use report_cover_empty.pdf>
 Package pdftex.def Info: report_cover_empty.pdf  used on input line 44.
@@ -1752,7 +1746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-<bilder/camerasystem.png, id=121, 192.21812pt x 191.21437pt>
+<bilder/camerasystem.png, id=129, 192.21812pt x 191.21437pt>
 File: bilder/camerasystem.png Graphic file (type png)
 <use bilder/camerasystem.png>
 Package pdftex.def Info: bilder/camerasystem.png  used on input line 29.
@@ -1766,12 +1760,12 @@ l.36
 
 
  <./bilder/camerasystem.png>]
-<bilder/calibration.png, id=129, 642.4pt x 481.8pt>
+<bilder/calibration.png, id=137, 642.4pt x 481.8pt>
 File: bilder/calibration.png Graphic file (type png)
 <use bilder/calibration.png>
 Package pdftex.def Info: bilder/calibration.png  used on input line 39.
 (pdftex.def)             Requested size: 170.71652pt x 128.03662pt.
-<bilder/helicloud.png, id=130, 330.23375pt x 287.0725pt>
+<bilder/helicloud.png, id=138, 330.23375pt x 287.0725pt>
 File: bilder/helicloud.png Graphic file (type png)
 <use bilder/helicloud.png>
 Package pdftex.def Info: bilder/helicloud.png  used on input line 41.
@@ -1843,7 +1837,7 @@ l.1 \chapter
 Kapitel 2.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
-<bilder/opencv.png, id=197, 65.043pt x 80.2197pt>
+<bilder/opencv.png, id=209, 65.043pt x 80.2197pt>
 File: bilder/opencv.png Graphic file (type png)
 <use bilder/opencv.png>
 Package pdftex.def Info: bilder/opencv.png  used on input line 13.
@@ -1857,7 +1851,7 @@ Underfull \hbox (badness 4416) in paragraph at lines 15--16
 / wiki / OpenCV # /media / Datei : OpenCV _ Logo _ with _ text .
  []
 
-<bilder/scikit.png, id=200, 451.6875pt x 242.9075pt>
+<bilder/scikit.png, id=212, 451.6875pt x 242.9075pt>
 File: bilder/scikit.png Graphic file (type png)
 <use bilder/scikit.png>
 Package pdftex.def Info: bilder/scikit.png  used on input line 25.
@@ -1887,7 +1881,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<bilder/verzeichnung.jpg, id=219, 903.375pt x 426.59375pt>
+<bilder/verzeichnung.jpg, id=231, 903.375pt x 426.59375pt>
 File: bilder/verzeichnung.jpg Graphic file (type jpg)
 <use bilder/verzeichnung.jpg>
 Package pdftex.def Info: bilder/verzeichnung.jpg  used on input line 10.
@@ -1915,7 +1909,7 @@ File: bilder/calibration.png Graphic file (type png)
 <use bilder/calibration.png>
 Package pdftex.def Info: bilder/calibration.png  used on input line 29.
 (pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
-<bilder/matrix.png, id=231, 117.94063pt x 54.70438pt>
+<bilder/matrix.png, id=243, 117.94063pt x 54.70438pt>
 File: bilder/matrix.png Graphic file (type png)
 <use bilder/matrix.png>
 Package pdftex.def Info: bilder/matrix.png  used on input line 37.
@@ -1930,7 +1924,7 @@ File: bilder/camerasystem.png Graphic file (type png)
 <use bilder/camerasystem.png>
 Package pdftex.def Info: bilder/camerasystem.png  used on input line 60.
 (pdftex.def)             Requested size: 170.71652pt x 169.83595pt.
-<bilder/szene.png, id=242, 125.46875pt x 142.03062pt>
+<bilder/szene.png, id=254, 125.46875pt x 142.03062pt>
 File: bilder/szene.png Graphic file (type png)
 <use bilder/szene.png>
 Package pdftex.def Info: bilder/szene.png  used on input line 62.
@@ -1941,7 +1935,7 @@ een already used, duplicate ignored
                    \relax 
 l.72 
       [12]
-<bilder/tiefenberechnung.png, id=254, 225.84375pt x 195.73125pt>
+<bilder/tiefenberechnung.png, id=266, 225.84375pt x 195.73125pt>
 File: bilder/tiefenberechnung.png Graphic file (type png)
 <use bilder/tiefenberechnung.png>
 Package pdftex.def Info: bilder/tiefenberechnung.png  used on input line 74.
@@ -1965,66 +1959,62 @@ as been already used, duplicate ignored
 l.1 \chapter
             {Experimente} [14]
 Kapitel 4.
-<bilder/experimentcalib.png, id=271, 481.8pt x 361.35pt>
+<bilder/experimentcalib.png, id=284, 481.8pt x 361.35pt>
 File: bilder/experimentcalib.png Graphic file (type png)
 <use bilder/experimentcalib.png>
-Package pdftex.def Info: bilder/experimentcalib.png  used on input line 8.
-(pdftex.def)             Requested size: 481.79881pt x 361.34912pt.
-
-Overfull \hbox (63.54514pt too wide) in paragraph at lines 8--9
-[][] 
- []
-
+Package pdftex.def Info: bilder/experimentcalib.png  used on input line 10.
+(pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
+<bilder/simple_calib.png, id=287, 401.5pt x 145.04187pt>
+File: bilder/simple_calib.png Graphic file (type png)
+<use bilder/simple_calib.png>
+Package pdftex.def Info: bilder/simple_calib.png  used on input line 21.
+(pdftex.def)             Requested size: 401.49901pt x 145.0415pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 
-      [15
+l.25 \end{figure}
+                  [15
 
-]
-File: bilder/tiefenberechnung.png Graphic file (type png)
-<use bilder/tiefenberechnung.png>
-Package pdftex.def Info: bilder/tiefenberechnung.png  used on input line 19.
-(pdftex.def)             Requested size: 225.84319pt x 195.73076pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 
-      [16 <./bilder/experimentcalib.png (PNG copy)>]
-<bilder/depth_left.png, id=279, 325.215pt x 243.91125pt>
+ <./bilder/experimentcalib.png (PNG copy)>]
+<bilder/depth_left.png, id=297, 325.215pt x 243.91125pt>
 File: bilder/depth_left.png Graphic file (type png)
 <use bilder/depth_left.png>
-Package pdftex.def Info: bilder/depth_left.png  used on input line 25.
+Package pdftex.def Info: bilder/depth_left.png  used on input line 37.
 (pdftex.def)             Requested size: 133.84424pt x 100.38387pt.
-<bilder/depth_right.png, id=280, 325.71687pt x 243.91125pt>
+<bilder/depth_right.png, id=298, 325.71687pt x 243.91125pt>
 File: bilder/depth_right.png Graphic file (type png)
 <use bilder/depth_right.png>
-Package pdftex.def Info: bilder/depth_right.png  used on input line 29.
+Package pdftex.def Info: bilder/depth_right.png  used on input line 41.
 (pdftex.def)             Requested size: 133.84424pt x 100.23128pt.
-<bilder/depth_side.png, id=281, 325.71687pt x 243.91125pt>
+<bilder/depth_side.png, id=299, 325.71687pt x 243.91125pt>
 File: bilder/depth_side.png Graphic file (type png)
 <use bilder/depth_side.png>
-Package pdftex.def Info: bilder/depth_side.png  used on input line 33.
+Package pdftex.def Info: bilder/depth_side.png  used on input line 45.
 (pdftex.def)             Requested size: 133.84424pt x 100.23128pt.
-<bilder/depth_result.png, id=282, 325.71687pt x 243.91125pt>
+<bilder/depth_result.png, id=303, 325.71687pt x 243.91125pt>
 File: bilder/depth_result.png Graphic file (type png)
 <use bilder/depth_result.png>
-Package pdftex.def Info: bilder/depth_result.png  used on input line 40.
+Package pdftex.def Info: bilder/depth_result.png  used on input line 54.
 (pdftex.def)             Requested size: 200.75996pt x 150.34134pt.
-<bilder/depth_coord.png, id=283, 317.185pt x 232.87pt>
+<bilder/depth_coord.png, id=304, 317.185pt x 232.87pt>
 File: bilder/depth_coord.png Graphic file (type png)
 <use bilder/depth_coord.png>
-Package pdftex.def Info: bilder/depth_coord.png  used on input line 44.
+Package pdftex.def Info: bilder/depth_coord.png  used on input line 58.
 (pdftex.def)             Requested size: 200.75996pt x 147.39821pt.
 ) (Probleme.texpdfTeX warning (ext4): destination with the same identifier (nam
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Probleme} [17 <./bilder/depth_left.png> <./bilder/depth_right.png>
- <./bilder/depth_side.png> <./bilder/depth_result.png> <./bilder/depth_coord.pn
+            {Probleme} [16 <./bilder/simple_calib.png> <./bilder/depth_left.png
+> <./bilder/depth_right.png> <./bilder/depth_side.png>]pdfTeX warning (ext4): d
+estination with the same identifier (name{page.}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Probleme} [17 <./bilder/depth_result.png> <./bilder/depth_coord.pn
 g>]
 Kapitel 5.
 ) (Fazit.texpdfTeX warning (ext4): destination with the same identifier (name{p
@@ -2043,21 +2033,8 @@ been already used, duplicate ignored
 l.62 \listoffigures
                     [19
 
-]
-Overfull \hbox (13.91676pt too wide) in paragraph at lines 62--62
-[]\T1/phv/m/n/10.95 Ingmar Jahr. \T1/phv/m/sl/10.95 Ka-me-ra-ka-li-brie-rung\T1
-/phv/m/n/10.95 . \T1/phv/m/sc/10.95 url\T1/phv/m/n/10.95 : [][]$\T1/cmtt/m/n/10
-.95 https : / / www . invision -[] news . de / allgemein /
- []
-
-
-Overfull \hbox (1.4584pt too wide) in paragraph at lines 62--62
-\T1/cmtt/m/n/10.95 www . cg . tuwien . ac . at / courses / EinfVisComp / Skript
-um / SS13 / EVC -[] 18 % 20Stereo %
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.62 \listoffigures
@@ -2080,20 +2057,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 2B30B7FC0D19F45280737CA585EB1AD7;1304.
 
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: D5AC1C1EA778A2ED21BCD835225972F4;1202
-(rerunfilecheck)             After:  51E9A1C2B9AA660BCB293C638630039A;1303.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
 
@@ -2106,10 +2074,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29599 strings out of 493305
- 544199 string characters out of 3129803
- 1009677 words of memory out of 3000000
- 32516 multiletter control sequences out of 15000+200000
+ 29620 strings out of 493305
+ 544650 string characters out of 3129803
+ 1010970 words of memory out of 3000000
+ 32534 multiletter control sequences out of 15000+200000
  60929 words of font info for 76 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  69i,10n,74p,772b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2120,15 +2088,16 @@ nc/dvips/base/8r.enc}<C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/morit/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/morit/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users
-/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/u
-hvb8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/hel
-vetic/uhvr8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-urw/helvetic/uhvro8a.pfb>
-Output written on report.pdf (21 pages, 4460906 bytes).
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
+morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
+/helvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on report.pdf (21 pages, 5008699 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 513 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

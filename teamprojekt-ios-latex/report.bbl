@@ -41,6 +41,25 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{CVF}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Franz},
+         familyi={F\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{ransac}
+    \field{year}{2019}
+  \endentry
+
   \entry{VZ1}{online}{}
     \name{author}{1}{}{%
       {{hash=JI}{%
@@ -161,6 +180,26 @@
     \field{urlday}{24}
     \field{urlmonth}{02}
     \field{urlyear}{2020}
+  \endentry
+
+  \entry{PCV}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SJE}{%
+         family={Solem},
+         familyi={S\bibinitperiod},
+         given={Jan\bibnamedelima Erik},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJE1}
+    \strng{fullhash}{SJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{subtitle}{Tools and algorithms for analyzing images}
+    \field{title}{Programming Computer Vision with Python}
+    \field{year}{2012}
   \endentry
 
   \entry{extr}{online}{}
