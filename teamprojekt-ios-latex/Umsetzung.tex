@@ -42,7 +42,13 @@ Die Funktion liefert die intrinsisches Parameter in Form von einer $3x3$ Kamera-
 \noindent Wobei $f_{x}$ und $f_{y}$ die Brennweite in Pixeln und $c_{x}$ $c_{y}$ ein Hauptpunkt, der normalerweise in der Bildmitte liegt, ist.
 
 \noindent Die Ergebnisse dieses Vorgangs werden auf dem Computer gespeichert, sodass dieser nicht wiederholt werden muss. Anschlie"send wird das Ergebnis der Kalibrierungen an die OpenCV-Funktion \textit{stereoCalibrate} "ubergeben.\newline
-Mit Hilfe der Stereo-Kalibrierung kann der Zusammenhang zwischen den Kameras ermittelt werden: Es werden von dem Bezugsbild, welches zum Ursprung des Koordinatensystems wird, die Objekt-Punkte verwendet. Von beiden Kamerasystem werden die Bild-Punkte, die jeweiligen Kameramatrizen und die Verzeichnungskoeffizienten verwenden.
+Mit Hilfe der Stereo-Kalibrierung kann der Zusammenhang zwischen den Kameras ermittelt werden: Es werden von dem Bezugsbild, welches zum Ursprung des Koordinatensystems wird, die Objekt-Punkte verwendet. Von beiden Kamerasystem werden die Bild-Punkte, die jeweiligen Kameramatrizen und die Verzeichnungskoeffizienten verwenden.\newline
+Die f"ur uns wichtigsten Ergebnisse der Stereo-Kalibrierung sind die Rotation und Translation der beiden Kameras zueinander.
+
+\section{Fehler"uberpr"ufung}
+\label{sec:fehlertest}
+
+Hier Reprojection-Error
 
 \section{Tiefeninformationen}
 \label{sec:tiefeninformationen}
@@ -71,15 +77,5 @@ Durch die achsparallele Anordnung der Kameras, die nicht gegeneinander verdreht 
  	\label{fig:base}%
  \end{figure}
  
-\newpage
-
-Diese Funktion kalibriert die beiden Kameras zueinander. Dies geschieht mit Hilfe der vorher berechneten Kameramatrizen, Verzeichnungen und der Objekt- und Bild-Punkte.\newline 
-Die wichtigsten Ergebnisse der Stereo-Kalibrierung sind die Rotation und die Translation der beiden Kameras zueinander.
-
-\subsection{Fehler"uberpr"ufung}
-\label{sec:fehlertest}
-
-\section{Tiefeninformationen}
-\label{sec:tiefeninformationen}
-
-Um Tiefeninformationen aus zwei Bildern zu gewinnen, m"ussen diese zuerst rektifiziert und entzerrt werden. 
+\section{Timmos Zeug} 
+\label{sec:timmoszeug}
