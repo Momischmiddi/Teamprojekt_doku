@@ -32,7 +32,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{B}
     \field{sortinithash}{B}
-    \field{title}{Verzeichnung}
+    \field{title}{Objektive Brennweite und Verzeichnung}
     \verb{url}
     \verb http://www.fotokurs-bremen.de/objektive-brennweite-und-verzeichnung/
     \endverb
@@ -56,7 +56,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{J}
     \field{sortinithash}{J}
-    \field{title}{Verzeichnung}
+    \field{title}{Kamerakalibrierung}
     \verb{url}
     \verb https://www.invision-news.de/allgemein/kamerakalibrierung/
     \endverb
@@ -105,7 +105,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{title}{Kalibrierung}
+    \field{title}{Kalibrierung von Kameras}
     \verb{url}
     \verb https://www.unibw.de/tas/forschung/kalibrierung-von-kameras/view
     \endverb
@@ -127,11 +127,38 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{O}
     \field{sortinithash}{O}
-    \field{title}{OpenCV}
+    \field{title}{Calibration Tutorial}
     \verb{url}
     \verb https://docs.opencv.org/3.4/dc/dbb/tutorial_py_calibration.html
     \endverb
     \field{urlday}{22}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{Tu}{online}{}
+    \name{author}{1}{}{%
+      {{hash=uSZRS}{%
+         prefix={und},
+         prefixi={u\bibinitperiod},
+         family={Sebastian\bibnamedelima Zambanini},
+         familyi={S\bibinitperiod\bibinitdelim Z\bibinitperiod},
+         given={Robert\bibnamedelima Sablatnig},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SZRSu1}
+    \strng{fullhash}{SZRSu1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Stereo and Motion}
+    \verb{url}
+    \verb https://www.cg.tuwien.ac.at/courses/EinfVisComp/Skriptum/SS13/EVC-18%
+    \verb 20Stereo%20und%20Motion.pdf
+    \endverb
+    \field{urlday}{24}
     \field{urlmonth}{02}
     \field{urlyear}{2020}
   \endentry
