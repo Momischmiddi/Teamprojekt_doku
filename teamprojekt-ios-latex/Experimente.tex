@@ -123,21 +123,21 @@ Die Formel \ref{eq:tiefe} wurde mit folgendem Experiment validiert:
 Wird die Varianz der Ausgangsgröße $y$ über die fehlerbehafteten Eingangsgrößen $x_{1}$ bis $x_{n}$  abgeschätzt, lautet die allgemeine Form des Gaußschen Fehlerfortpflanzungsgesetzes:
 
 \begin{equation}
-F3
+\includegraphics[scale=1.0]{bilder/formel3}
 \end{equation}
 
 \noindent Wendet man dieses Gesetz auf die Formeln \ref{eq:one} - \ref{eq:tiefe} an, erhält man folgende Fehlerabschätzung für die Größen $z$, $y$ und $z$ unter der Annahme, dass die Brennweite $f$ und die Baseline $B$ fehlerfrei sind \cite{frz}:
 
 \begin{equation}\label{eq:fourone}
-F41
+\includegraphics[scale=1.0]{bilder/fourone}
 \end{equation}
 
 \begin{equation}\label{eq:fourtwo}
-F42
+\includegraphics[scale=1.0]{bilder/fourtwo}
 \end{equation}
 
 \begin{equation}\label{eq:fourthree}
-F43
+\includegraphics[scale=1.0]{bilder/fourthree}
 \end{equation}
 
 
@@ -162,4 +162,33 @@ Zur Genauigkeitsbeurteilung haben wir drei Mal das gleiche Objekt in jeweils ein
 \begin{figure}[H]
 	\includegraphics[scale=1.0]{bilder/abstandsmessung}
 	\caption[Versuchsaufbau mit zwei Stereokamerasystemen und Objekt zur Abstandsmessung]{Versuchsaufbau mit zwei Stereokamerasystemen und Objekt zur Abstandsmessung}
+	\label{fig:abstandsmessung}
 \end{figure}
+
+\section{Kalibrierung der beiden Stereokamerasysteme zueinander}
+\label{sec:kalibbeide}
+
+Durch Aufstellen eines zweiten identischen Stereokamerasystems gegenüber des bisher beschriebenen Systems (s. \ref{fig:abstandsmessung}) sollte die bisher in der generierten Punktewolke fehlende Rückansicht des Helikopters in der Punktewolke visualisiert werden. Auf diese Weise sollte also eine 360\degree \space 3D-Ansicht einer Szene generiert werden. Zunächst musste das zweite System entsprechend dem Vorgehen für das erste System kalibriert werden, bevor versucht werden konnte, die beiden System zueinander kalibrieren zu können, d.h. die Rotation und Translation der beiden Systeme zueinander zu bestimmen. Dies ist nötig, um die beiden separaten Punktewolken in ein gemeinsames Koordinatensystem überführen zu können.\newline
+\noindent Zur Kalibrierung der beiden Systeme zueinander wurden mehrere verschiedene Ansätze in Betracht gezogen und getestet, um Korrespondenzpunkte im 3-dimensionalen Raum berechnen zu können. Mithilfe des Algorithmus Iterative Closest Points, welcher in \ref{sec:icp} erl"autert wird, sollten aus diesen 3D-Koordinaten die Rotation und Translation der Systeme zueinander bestimmt werden.\newline
+\noindent Folgende Ansätze wurden in Betracht gezogen:
+
+\begin{enumerate}
+	\item Aufstellen eines Objektes mit mehreren Eckpunkten, die in beiden Systemen sichtbar sind mit anschließendem automatisiertem Auffinden von Korrespondenzpunkten mit Hilfe des rotationsresistenten Interest-Point-Detektors SIFT. Leider konnte der SIFT-Detektor nicht ausreichend korrekte Korrespondenzen in den beiden Aufnahmen der jeweils gewählten Referenzkameras der beiden Systeme detektieren, weshalb dieser Ansatz nicht weiterverfolgt wurde.
+	
+	
+	\item Aufstellen eines Objektes mit mehreren Eckpunkten, die von beiden Systemen sichtbar sind. Aus den Aufnahmen sollten dann händisch die 2D-Koordinaten bestimmt und mit den Formeln 
+	\ref{eq:one} - \ref{eq:four} die 3D-Repräsentation des Punkts berechnet werden. Dieser Ansatz wurde wegen des hohen manuellen Aufwands zunächst nicht weiterverfolgt und als Notlösung, falls keine bessere Variante gefunden werden könnte, verbucht. 
+	
+	\item Als am vielversprechendsten erwies sich der Ansatz mit einem beidseitig bedruckten Schachbrettmuster zu kalibrieren. Dabei müssen die Eckpunkte des Schachbretts auf Vorder- und Rückseite möglichst exakt übereinander liegen, dies muss bereits beim Druck berücksichtigt werden \cite{paper}. Von dem Schachbrettmuster wird dann von beiden Systemen eine Aufnahme gemacht, diese rektifiziert und mit der aus der Kamera-Kalibrierung bereits bekannten OpenCV-Methode \textit{findChessBoardCorners} die Bildkoordinaten der Eckpunkte bestimmt. Aus diesen Bildkoordinaten können anschließend erneut mit den Formeln xyz die 3D-Koordinaten mehrerer identischer Punkte für die beiden System berechnet werden. \newline 
+	\noindent Mithilfe des ICP konnten die beiden 3D-Punktewolken der beiden Schachbrettmuster auch erfolgreich in eine Ebene transformiert werden, also die Translation der beiden Systeme zueinander bestimmt werden. Problematisch war jedoch die Bestimmung der Rotation, da die Punktewolken des Schachbretts nahezu symmetrisch sind und deshalb die 180\degree-Rotation nicht erkannt wird. Eigentlich müssten die jeweils oberen linken Ecken des Schachbrettmusters aus beiden Systemen aufeinander gemappt werden. Allerdings werden durch den ICP die linke obere Ecke des Schachbrettmusters aus dem linken System auf die rechte obere Ecke der Aufnahme aus dem rechten System aufeinander gemappt, wodurch keine Rotation erkannt wird. Bei einem anderen Setup der Stereosysteme zueinander wird das Schachbrettmuster nicht mehr gleichzeitig von beiden Systemen erkannt, weshalb das Problem dadurch ebenfalls nicht gelöst werden kann.
+	
+\end{enumerate}
+
+\begin{figure}[H]
+	\includegraphics[scale=1.0]{bilder/icpresult}
+	\caption[3D-Schachbrettmuster vor und nach der Transformation mit den Ergebnissen des ICP-Algorithmus]{3D-Schachbrettmuster vor und nach der Transformation mit den Ergebnissen des ICP-Algorithmus}
+	\label{fig:icpresult}
+\end{figure}
+
+\section{ICP}
+\label{sec:icp}

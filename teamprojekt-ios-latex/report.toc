@@ -56,6 +56,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Genauigkeitsabsch\IeC {\"a}tzung des Systems}{}{section.5.3}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Kalibrierung der beiden Stereokamerasysteme zueinander}{}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}ICP}{}{section.5.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Probleme}{}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Fazit}{}{chapter.7}
