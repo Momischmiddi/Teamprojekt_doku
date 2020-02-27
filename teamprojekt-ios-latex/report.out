@@ -19,10 +19,12 @@
 \BOOKMARK [2][-]{subsection.4.3.1}{Entzeichnung}{section.4.3}% 19
 \BOOKMARK [2][-]{subsection.4.3.2}{Rektifizierung}{section.4.3}% 20
 \BOOKMARK [1][-]{section.4.4}{Generierung einer Tiefenkarte}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.5}{Lokalisierung des Helikopters}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.5.1}{k-Means}{section.4.5}% 23
-\BOOKMARK [0][-]{chapter.5}{Experimente}{}% 24
-\BOOKMARK [1][-]{section.5.1}{Vereinfachte Kalibrierung}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.2}{Tiefe und Stereokalibrierung}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter.6}{Probleme}{}% 27
-\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 28
+\BOOKMARK [1][-]{section.4.5}{Punktewolken-Generierung}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.6}{Lokalisierung des Helikopters}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.6.1}{k-Means}{section.4.6}% 24
+\BOOKMARK [0][-]{chapter.5}{Experimente}{}% 25
+\BOOKMARK [1][-]{section.5.1}{Vereinfachte Kalibrierung}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.2}{Tiefe und Stereokalibrierung}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.3}{Fehlerfortpflanzung und Tiefenvalidierung}{chapter.5}% 28
+\BOOKMARK [0][-]{chapter.6}{Probleme}{}% 29
+\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 30

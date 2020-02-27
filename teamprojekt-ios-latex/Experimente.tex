@@ -77,6 +77,57 @@ F"ur die Tiefenberechnung wurde Formel \ref{eq:dep} verwendet.
 Z=\frac{f*B}{x-x'}
 \end{equation}
 
-\noindent Wobei $f$ die Brennweite, $B$ die Baseline und $x$ bzw. $x'$ die Referenzpunkte sind. Als $B$ die in der Stereokalibrierung erhaltene Translation verwendet.\newline
+\noindent Wobei $f$ die Brennweite, $B$ die Baseline und $x$ bzw. $x'$ die Referenzpunkte sind. Als $B$ wird die in der Stereokalibrierung erhaltene Translation verwendet.\newline
 Mittels eines selbst geschriebenem Algorithmus, der Werte mit im Mittel großem $Z$ wei"slich und Werte mit im Mittel kleinem $Z$ hellblau einf"arbt, kann man sich die Informationen zur Tiefe auf einem Bild darstellen.\newline
 In \ref{fig:depthpoints} kann man gut erkennen, dass Objekte, die n"aher an der Kamera stehen, mit einem hellen blau markiert sind. Objekte, die weiter entfernt sind, mit einem wei"slichem Farbton. Durch dieses Experiment war es uns m"oglich zu Validieren, dass unser Ansatz der Richtige war.
+
+\section{Fehlerfortpflanzung und Tiefenvalidierung}
+\label{sec:fehlerfortpflanzungtiefen}
+
+Bei der Tiefenberechnung mit Hilfe eines Stereokamerasystems wird die Raumposition nicht gemessen, sondern aus den beiden vom Kamerasystem erfassten Bildern berechnet. Dazu wird der gleiche Raumpunkt in beiden Bildern detektiert. Die räumliche Rekonstruktion ist im Stereonormalfall besonders einfach, da die beiden Kameras keine Rotation zueinander aufweisen. Dadurch vereinfachen sich die allgemeinen Formeln zur räumlichen Rekonstruktion \cite{frz}
+
+\begin{equation}
+x = x_{0} + (z - z_{0})\frac
+{r_{11}(x'-x_{0}') + r_{12}(y'-y_{0}')-r_{13}f}
+{r_{31}(x'-x_{0}') + r_{32}(y'-y_{0}')-r_{33}f}
+\end{equation}
+
+\begin{equation}
+y = y_{0} + (z - z_{0})\frac
+{r_{21}(x'-x_{0}') + r_{22}(y'-y_{0}')-r_{23}f}
+{r_{31}(x'-x_{0}') + r_{32}(y'-y_{0}')-r_{33}f}
+\end{equation}
+
+\noindent zu\newline
+\noindent Rechtes Bild:
+\begin{equation}\label{eq:one}
+x = -z \frac{x'_{1}}{f}
+\end{equation}
+\begin{equation}\label{eq:two}
+y = -z \frac{y'_{1}}{f}
+\end{equation}
+
+\noindent Linkes Bild:
+\begin{equation}\label{eq:three}
+x = B-z \frac{x'_{2}}{f}
+\end{equation}
+\begin{equation}\label{eq:four}
+y = -z \frac{y'_{2}}{f}
+\end{equation}
+
+\noindent Aus den vereinfachten Formeln \ref{eq:one}, \ref{eq:two}, \ref{eq:three} und \ref{eq:four}, ist es ersichtlich, dass ein Raumpunkt in beiden Bildern die gleiche $y$-Koordinate aufweist, sich jedoch normalerweise in der $x$-Koordinate unterscheidet. Diese Differenz wird als $x$-Parallaxe 
+$\rho_{x} = x_{1} - x_{2}$ oder Disparität $D$ bezeichnet.\newline
+\noindent Durch Gleichsetzen der Formeln \ref{eq:one} – \ref{eq:four} für linkes und rechtes Bild, erhält man folgende Formel zur Berechnung der Tiefeninformation:
+
+\begin{equation}
+z = -\frac
+{f*B}
+{x'_{1}-x'_{2}}
+=
+-\frac
+{f*B}
+{\rho x'}
+\end{equation}
+
+\noindent Da die Brennweite f und der Abstand der beiden Kameras zueinander (Baseline $B$) konstant sind, ist die Entfernung allein von der $x$-Parallaxe abhängig. Dabei ist ein Punkt näher, je größer die Parallaxe ist.
+

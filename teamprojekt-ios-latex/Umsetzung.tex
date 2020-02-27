@@ -3,7 +3,7 @@
 
 Im Groben l"asst sich der Ablauf unseres Programms,
 das das Problem der Lokalisierung eines Helikopters im Raum l"ost, folgenderma"sen beschreiben:\newline
-Anfangs werden die Kameras separat kalibriert. Ist der berechnete Fehler dieser Kalibrierung gering, werden anschlie"send die Kameras zu einander kalibriert. Wird dann mit beiden Kameras ein Bild der Szene aufgenommen, werden diese Bilder zuerst rektifiziert und anschlie"send entzeichnet. Mit den neuen Bildern ist es m"oglich, eine Tiefenkarte und anschlie"send eine Punktewolke zu generieren. Von dieser Punktwolke wird dann der Mittelpunkt und die Koordinaten dieses Punktes bestimmt. Somit gelangen wir an die $X$-, $Y$- und $Z$-Koordinaten des Helikopters.\newline
+Anfangs werden die Kameras separat kalibriert. Ist der berechnete Fehler dieser Kalibrierung gering, werden anschlie"send die Kameras zu einander kalibriert. Wird dann mit beiden Kameras ein Bild der Szene aufgenommen, werden diese Bilder zuerst rektifiziert und anschlie"send entzeichnet. Mit den neuen Bildern ist es m"oglich, eine Tiefenkarte und anschlie"send eine Punktewolke zu generieren. Von dieser Punktwolke wird dann der Mittelpunkt und die Koordinaten dieses Punktes bestimmt. Somit gelangen wir an die $x$-, $y$- und $z$-Koordinaten des Helikopters.\newline
 Diese Schritte werden im Folgenden detailliert beschrieben.
 
 \section{Kalibrierung}
@@ -74,7 +74,7 @@ Der Reprojection Error ist ein qualitatives Ma"s für die Genauigkeit. Der Repro
 	\label{fig:stereo1}%
 \end{figure}
 
-Wie auf dem Bild \ref{fig:stereo1} zu sehen ist, handelt es sich bei unserem Aufbau um ein Stereosystem. Dies ist notwendig f"ur das Berechnen von Tiefeinformationen. Liegen alle Referenzpunkte auf einer geraden, so kann mittels Triangulation, wie auf \ref{fig:baseline} zu sehen ist, der $Z$-Achsen Wert der Punkte berechnet werden.
+Wie auf dem Bild \ref{fig:stereo1} zu sehen ist, handelt es sich bei unserem Aufbau um ein Stereosystem. Dies ist notwendig f"ur das Berechnen von Tiefeinformationen. Liegen alle Referenzpunkte auf einer geraden, so kann mittels Triangulation, wie auf \ref{fig:baseline} zu sehen ist, der $z$-Achsen Wert der Punkte berechnet werden.
 
 \begin{figure}[H]
 	\includegraphics[scale=1.5]{bilder/baseline}
@@ -109,7 +109,7 @@ Wie in \ref{sec:kalibrierung} erw"ahnt, dient die Kalibrierung die Kompensation 
 	\label{fig:vergr}%
 \end{figure}
 
-\noindent \ref{fig:steresene} zeigt eine Aufnahme der Kameras. Vergr"o"sert man diese wie in \ref{fig:vergr} sieht man, dass Referenzpunkte nicht immer auf einer Geraden liegen. Dies liegt an der Rotation um die $X$-Achse der beiden Kameras. Diese entsteht zum einen durch das nicht exakte Stativ, zum anderen durch die Montur der Kameras an diesem. Aufgrund dieser Rotation ist es nicht m"oglich Tiefeninformationen der ganzen Szene zu ermitteln. Um dieses Problem zu beheben m"ussen die Bilder rektifiziert werden \cite{zbs}. Mittels der Rektifizierung wird die Rotation beider Kameras berechnet und auf den jeweiligen Aufnahmen kompensiert, sodass Referenzpunkte auf einer geraden Linie liegen. In der Epipolargeometrie wird diese Gerade die Epipolarlinie genannt \cite{ocvs} \cite{wepi}. Nach der Rektifizierung sind alle diese Epipolarlinien parallel. Die Rektifizierung wird in OpenCV mittels der Funktion \textit{stereoRectify} erreicht.
+\noindent \ref{fig:steresene} zeigt eine Aufnahme der Kameras. Vergr"o"sert man diese wie in \ref{fig:vergr} sieht man, dass Referenzpunkte nicht immer auf einer Geraden liegen. Dies liegt an der Rotation um die $x$-Achse der beiden Kameras. Diese entsteht zum einen durch das nicht exakte Stativ, zum anderen durch die Montur der Kameras an diesem. Aufgrund dieser Rotation ist es nicht m"oglich Tiefeninformationen der ganzen Szene zu ermitteln. Um dieses Problem zu beheben m"ussen die Bilder rektifiziert werden \cite{zbs}. Mittels der Rektifizierung wird die Rotation beider Kameras berechnet und auf den jeweiligen Aufnahmen kompensiert, sodass Referenzpunkte auf einer geraden Linie liegen. In der Epipolargeometrie wird diese Gerade die Epipolarlinie genannt \cite{ocvs} \cite{wepi}. Nach der Rektifizierung sind alle diese Epipolarlinien parallel. Die Rektifizierung wird in OpenCV mittels der Funktion \textit{stereoRectify} erreicht.
 
 \section{Generierung einer Tiefenkarte} 
 \label{sec:gernerierungdep}
@@ -120,7 +120,7 @@ Die Tiefenkarte, aus der die Punktewolke generiert wird, wird mit Hilfe des Bloc
 MSE(x,y,\Delta) = \dfrac{1}{n-m} \sum_{i=-k}^k \sum_{j=-k}^k (|G_{L}(x+i, y+j) - G_{R}(x+i+\Delta, y+j)|^2)
 \end{equation}
 
-\noindent $G_{L}$ und $G_{R}$ sind die Bilder als Matrizen in Grauwerten abgespeichert. Der Offset $\Delta$ ist der Indikator f"ur die Sprungweite im zweiten Bild. Nun ist es m"oglich, die Disparit"at $D$ zu bestimmen. Dies beschränkt sich allerdings auf die Bereiche, in der der MSE minimal ist \cite{HAW}:
+\noindent $G_{L}$ und $G_{R}$ sind die Bilder als Matrizen in Grauwerten abgespeichert. Der Offset $\Delta$ ist der Indikator f"ur die Sprungweite im zweiten Bild. Nun ist es m"oglich, die Disparit"at $d$ zu bestimmen (die Disparit"at bezeichnet die horizontale Differenz zwischen zwei korrespondierenden Bildpunkten \cite{disp}). Dies beschränkt sich allerdings auf die Bereiche, in der der MSE minimal ist \cite{HAW}:
 
 \begin{equation}
 D=\min_{|\Delta|\leq d_{max}} \{MSE(x,y\Delta)\}
@@ -143,6 +143,18 @@ D=\min_{|\Delta|\leq d_{max}} \{MSE(x,y\Delta)\}
 	\includegraphics[scale=2.0]{bilder/Tiefenkarte}
 	\caption[Tiefenkarte]{Tiefenkarte}
 	\label{fig:tiefenkarte}%
+\end{figure}
+
+\section{Punktewolken-Generierung} 
+\label{sec:pointgen}
+
+Um aus der Tiefenkarte 3D-Koordinaten zu bestimmen, werden zunächst die $x$- und $y$- Werte derjenigen Pixel, die einen Wert größer 0 in der Tiefenkarte aufweisen, mit dem dazugehörigen Disparitätswert $d$ in homogener Schreibweise, d.h. mit einer angehängten 1, in einen Vektor geschrieben. Außerdem werden die Farbwerte dieser Pixel in einer Matrix gespeichert. Der Vektor $(x, y, d, 1)$ wird dann mit der 4 x 4-Perspektiv-Transformations-Matrix $Q$, die durch die Rektifizierung bestimmt wurde multipliziert. Die Matrix $Q$ enthält aktualisierte Informationen über die Brennweite, die Hauptpunktsverschiebung und die Länge der Baseline nach der Rektifizierung. Zum Schluss muss lediglich der Resultatsvektor durch den Wert des letzten Elements geteilt werden, um die Homogenisierung rückgängig zu machen und die gewünschten $x$-, $y$-, und $z$-Koordinaten in kartesicher Form zu erhalten. Diese werden mit den gespeicherten Farbwerten in eine \textit{.ply}-Datei geschrieben, um beispielweise mit CloudCompare anschließend visualisiert werden zu können.\newline
+Die Berechnung könnte auch innerhalb einer geschachtelten Schleife, die über sämtliche Pixelwerte iteriert, vorgenommen werden. Der vektorbasierte Ansatz bietet in Python jedoch deutliche Performancevorteile, weshalb die Berechnung auf diese Weise umgesetzt wurde. Das Speichern der Resultate ist optional, es könnte auch direkt mit der Lokalisierung fortgefahren werden, ist jedoch zur Überprüfung der Resultate sehr hilfreich. \ref{fig:cloudresult} visualisiert das Ergebnis, visualisiert mit CloudCompare.
+
+\begin{figure}[H]
+	\includegraphics[scale=1.0]{bilder/cloud_result}
+	\caption[3D-Punktewolke des Modellhubschraubers vor weißem Hintergrund in CloudCompare]{3D-Punktewolke des Modellhubschraubers vor weißem Hintergrund in CloudCompare}
+	\label{fig:cloudresult}%
 \end{figure}
 
 \section{Lokalisierung des Helikopters} 
