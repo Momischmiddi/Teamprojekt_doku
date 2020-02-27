@@ -6,45 +6,67 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Kamera-Kalibrierung}}}{}{subfigure.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Helikopter-Punktewolke}}}{}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Helikopter-Punktewolke mit berechneter Raumposition}}}{}{subfigure.2.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces OpenCV}}{}{figure.caption.6}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Projektplan Zwischenergebnis}}{}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces scikit}}{}{figure.caption.7}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Verzeichnung}}{}{figure.caption.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Kalibrierung}}{}{figure.caption.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Stereo-System\relax }}{}{figure.caption.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Stereosystem}}}{}{subfigure.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Szenenaufnahme}}}{}{subfigure.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Tiefenberechnung}}{}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Endg\IeC {\"u}ltiger Zeitplan }}{}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Kalibrierobjekt}}{}{figure.caption.13}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces OpenCV}}{}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Vereinfachte Kalibrierung}}{}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces scikit}}{}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tiefe links\relax }}{}{figure.caption.15}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Tiefe rechts\relax }}{}{figure.caption.15}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Verzeichnung}}{}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Tiefe seitlich\relax }}{}{figure.caption.15}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Kalibrierung}}{}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Tiefeninformation Punkte\relax }}{}{figure.caption.16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Reprojection Error}}{}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Tiefeninformation 3D-Plot\relax }}{}{figure.caption.16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Stereo-System\relax }}{}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Stereosystem}}}{}{subfigure.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Szenenaufnahme}}}{}{subfigure.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Z-Achsen Berechnung}}{}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Stereo Szenenaufnahme}}{}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Stereo Vergr\active@dq \dq@prtct {o}\active@dq \dq@prtct {s}erung}}{}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Aufnahmen eines Helikopters\relax }}{}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Stereosystem}}}{}{subfigure.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Szenenaufnahme}}}{}{subfigure.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Tiefenkarte}}{}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Helikopter Cluster}}{}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Kalibrierobjekt}}{}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Vereinfachte Kalibrierung}}{}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Tiefe links\relax }}{}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Tiefe rechts\relax }}{}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Tiefe seitlich\relax }}{}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Tiefeninformation Punkte\relax }}{}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Tiefeninformation 3D-Plot\relax }}{}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

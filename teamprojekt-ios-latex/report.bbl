@@ -41,6 +41,51 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{HAW}{online}{}
+    \name{author}{1}{}{%
+      {{hash=FG}{%
+         family={Föll},
+         familyi={F\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FG1}
+    \strng{fullhash}{FG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Stereo Vision: Vergleich verschiedener Algorithmen zur
+  Lösung des Korrespondenzproblems}
+    \verb{url}
+    \verb https://users.informatik.haw-hamburg.de/~ubicomp/projekte/master2010-
+    \verb aw2/foell/bericht.pdf
+    \endverb
+    \field{urlday}{27}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{KM}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Franz},
+         familyi={F\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Dimensionsreduktion}
+    \field{year}{2019}
+  \endentry
+
   \entry{CVF}{unpublished}{}
     \name{author}{1}{}{%
       {{hash=FM}{%
@@ -58,6 +103,31 @@
     \field{sortinithash}{F}
     \field{title}{ransac}
     \field{year}{2019}
+  \endentry
+
+  \entry{zbs}{online}{}
+    \name{author}{1}{}{%
+      {{hash=IZ}{%
+         family={Ilmenau},
+         familyi={I\bibinitperiod},
+         given={ZBS},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IZ1}
+    \strng{fullhash}{IZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Rektifizierung der Stereobilder}
+    \verb{url}
+    \verb https://zbs-ilmenau.de/intern/vip/3D-Daten/VIP_3D_Rektifizierung_Ster
+    \verb eobilder.html
+    \endverb
+    \field{urlday}{25}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
   \endentry
 
   \entry{VZ1}{online}{}
@@ -133,6 +203,31 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{TUM}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MT}{%
+         family={M"unchen},
+         familyi={M\bibinitperiod},
+         given={TU},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MT1}
+    \strng{fullhash}{MT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Clusteranalyse}
+    \verb{url}
+    \verb https://www-m9.ma.tum.de/material/felix-klein/clustering/Methoden/K-M
+    \verb eans.php)
+    \endverb
+    \field{urlday}{27}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{OcvD}{online}{}
     \name{author}{1}{}{%
       {{hash=O}{%
@@ -151,6 +246,29 @@
     \verb https://docs.opencv.org/3.4/dc/dbb/tutorial_py_calibration.html
     \endverb
     \field{urlday}{22}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{ocvs}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={OpenCV},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Camera Calibration and 3D Reconstruction}
+    \verb{url}
+    \verb https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_an
+    \verb d_3d_reconstruction.html
+    \endverb
+    \field{urlday}{26}
     \field{urlmonth}{02}
     \field{urlyear}{2020}
   \endentry
@@ -224,6 +342,50 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{wie}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Entzerrung (Fotografie)}
+    \verb{url}
+    \verb https://de.wikipedia.org/wiki/Entzerrung_(Fotografie)
+    \endverb
+    \field{urlday}{26}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{wepi}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Epipolargeometrie}
+    \verb{url}
+    \verb https://de.wikipedia.org/wiki/Epipolargeometrie#8-Punkt-Algorithmus
+    \endverb
+    \field{urlday}{27}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{Ocv}{online}{}
     \name{author}{1}{}{%
       {{hash=W}{%
@@ -264,6 +426,28 @@
     \verb https://de.wikipedia.org/wiki/Scikit-learn
     \endverb
     \field{urlday}{22}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{spy}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Spyder (Software)}
+    \verb{url}
+    \verb https://de.wikipedia.org/wiki/Spyder_(Software)
+    \endverb
+    \field{urlday}{27}
     \field{urlmonth}{02}
     \field{urlyear}{2020}
   \endentry

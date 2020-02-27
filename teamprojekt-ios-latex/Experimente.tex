@@ -12,9 +12,19 @@ Eine andere M"oglichkeit, als in \ref{sec:kalibrierung} erl"autert, eine Kamera 
 	\label{fig:klammern}
 \end{figure}
 
-\noindent Die Formel zur Berechnung der Brennweite $f_x$ und $f_y$ ergibt sich aus den Formeln \newline
-$f_x=\frac{\Delta x'}{x}z$ und $f_y=\frac{\Delta y'}{y}z$\newline
-bei $\Delta x$ und $\Delta y$ handelt es sich um die jeweiligen Seitenl"angen des Kalibrierobjekts.\newline
+\noindent Die Formel zur Berechnung der Brennweite $f_x$ und $f_y$ ergibt sich aus den Formeln
+
+\begin{equation}
+f_x=\frac{\Delta x'}{x}z
+\end{equation}
+
+und
+
+\begin{equation}
+f_y=\frac{\Delta y'}{y}z
+\end{equation}
+
+\noindent bei $\Delta x$ und $\Delta y$ handelt es sich um die jeweiligen Seitenl"angen des Kalibrierobjekts.\newline
 $\Delta x'$ und $\Delta y'$ sind die L"angen der Seiten des Kalibrierobjekts in Pixelwerten. $z$ ist der Abstand zwischen Linse und Objekt \cite{PCV} \cite{CVF}.
 
 \begin{figure}[H]
@@ -25,12 +35,12 @@ $\Delta x'$ und $\Delta y'$ sind die L"angen der Seiten des Kalibrierobjekts in 
 \end{figure}
 
 \noindent Wie in \ref{fig:simplecalib} zu sehen ist, muss das Kalibrierobjekt senkrecht auf eine plane Oberfl"ache gestellt werden. So auch die Kamera. Die Kamera muss dann so ausgerichtet werden, dass das Objekt im Bild genau zentriert und entlang der Bildzeilen und -spalten ausgerichtet ist \cite{CVF}.\newline
-Obwohl diese Kalibrierung sehr ungenau erscheint, wurde ein dennoch relativ geringer Reprojection-Error, der den Wert ? hat, ermittelt. Der wie in \cite{cal} ermittelte Wert, von ? ,ist dennoch besser.
+Obwohl diese Kalibrierung sehr ungenau erscheint, wurde ein dennoch relativ geringer Reprojection-Error errechnet. Der wie in \ref{sec:kalibrierung} ermittelte Wert war dennoch besser.
 
-\section{Tiefeninformationen}
-\label{sec:expiefeninformationen2}
+\section{Tiefe und Stereokalibrierung}
+\label{sec:stereovalid}
 
-Die Methode Tiefeninformationen zu ermitteln, wie es in \ref{sec:tiefeninformationen} erl"autert wird, wurde vorerst mit einem Experiment validiert.
+Um die Werte, die wir von der Stereokalibrierung erhalten zu validieren, wurde folgendes Experiment durchgef"uhrt:
 
 \begin{figure}[!htb]
 	\minipage{0.32\textwidth}
@@ -47,7 +57,7 @@ Die Methode Tiefeninformationen zu ermitteln, wie es in \ref{sec:tiefeninformati
 	\endminipage
 \end{figure}
 
-\noindent Mit dem Stereo-System wurden zwei Aufnahmen einer Szene aufgenommen (\ref{fig:depthleft} und \ref{fig:depthright}). Auf dem seitlichen Bild \ref{fig:depthside}, sieht man die tats"achliche Tiefe der Objekte im Bild.
+\noindent Mit dem Stereo-System wurden zwei Aufnahmen einer Szene aufgenommen (\ref{fig:depthleft} und \ref{fig:depthright}). Auf dem seitlichen Bild \ref{fig:depthside} sieht man die tats"achliche Tiefe der Objekte im Bild.
 
 \begin{figure}[!htb]
 	\minipage{0.48\textwidth}
@@ -60,7 +70,13 @@ Die Methode Tiefeninformationen zu ermitteln, wie es in \ref{sec:tiefeninformati
 	\endminipage\hfill
 \end{figure}
 
-\noindent Auf den zwei Bildern der Szene wurden hier vorest h"andisch, dann mittels des SIFT-Algorithmus Referenzpunkte ermittelt, zu denen die Tiefe berechnet werden sollte. Der Abstand der beiden Kameras $B$ wurde hier h"andisch mit einem Lineal ausgemessen. Der Wert hier f"ur musste allerdings mehrere Male angepasst werden, da es wegen des Kamera-Geh"auses nicht klar war, wo genau sich der Sensor der Kamera befindet.\newline
-Dann wurde die, wie in \ref{sec:tiefeninformationen} erw"ahnte Formel angewandt, um den Wert der $Z$-Achse der jeweiligen Punkte zu ermitteln.\newline
+\noindent Ziel war es, erstmals Tiefeninformationen der Szene zu ermitteln und parallel, wenn m"oglich, die Stereokalibrierung zu validieren. Auf den zwei Bildern der Szene wurden hier vorerst h"andisch, dann mittels des SIFT-Algorithmus Referenzpunkte ermittelt, zu denen die Tiefe berechnet werden sollte.\newline
+F"ur die Tiefenberechnung wurde Formel \ref{eq:dep} verwendet.
+
+\begin{equation}\label{eq:dep}
+Z=\frac{f*B}{x-x'}
+\end{equation}
+
+\noindent Wobei $f$ die Brennweite, $B$ die Baseline und $x$ bzw. $x'$ die Referenzpunkte sind. Als $B$ die in der Stereokalibrierung erhaltene Translation verwendet.\newline
 Mittels eines selbst geschriebenem Algorithmus, der Werte mit im Mittel großem $Z$ wei"slich und Werte mit im Mittel kleinem $Z$ hellblau einf"arbt, kann man sich die Informationen zur Tiefe auf einem Bild darstellen.\newline
 In \ref{fig:depthpoints} kann man gut erkennen, dass Objekte, die n"aher an der Kamera stehen, mit einem hellen blau markiert sind. Objekte, die weiter entfernt sind, mit einem wei"slichem Farbton. Durch dieses Experiment war es uns m"oglich zu Validieren, dass unser Ansatz der Richtige war.

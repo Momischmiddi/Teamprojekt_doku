@@ -23,24 +23,23 @@
 \bigskip
 
 \noindent
-Unser Projekt behandelt das r"aumliche Detektieren eines Modellhubschraubers. Die Detektion soll unter Laborbedingungen, das hei"st, der Helikopter befindet sich vor einer wei"sen Wand, stattfinden. Mittels der Detektion soll auf einem Bild angezeigt werden, wo sich der Mittelpunkt des Helikopters befindet. Auch die Tiefe (Entfernung zur Kamera) des Helikopters soll ermittelt werden. F"ur diese Detektion sollen zwei oder mehr Kameras verwendet werden. Bei diesen handelt es sich um HIERKAMERAEINF"UGEN, die mit dem Computer "uber ein FireWire-Kabel verbunden sind.\newline
+Ziel des Projekts war das r"aumliche Detektieren eines Modellhubschraubers. Die Detektion soll unter Laborbedingungen stattfinden, das hei"st, der Helikopter befindet sich vor einer wei"sen Wand
+Zur Lokalisierung des Helikopters im Raum soll zun"achst eine 3D-Punktewolke der Szene generiert und daraus mit Hilfe des Clustering-Algorithmus k-Means die Position des Helikopters bestimmt werden. Auch die Tiefe (Entfernung zur Kamera) des Helikopters soll ermittelt werden. Die Detektion soll mit Hilfe von zwei oder mehr Kameras des Herstellers Point Grey , die "uber eine FireWire-Schnittstelle mit einem Computer verbunden sind, stattfinden.
 
 \begin{figure}[H]
-	\includegraphics[scale=1.0]{bilder/camerasystem}
+	\includegraphics[scale=0.3]{bilder/camerasystem}
 	\caption[Kamera-System]{Kamera-System}
 \end{figure}
 
-\noindent Das Projekt wurde erfolgreich umgesetzt.
-Mittels zwei Kameras, die auf einer geraden Linie angebracht sind, kann der Mittelpunkt des Helikopters und dessen Abstand zur Kamera ermittelt werden.\newline
-Unser Programm kalibriert als erstes die Kameras einzeln und anschlie"send zu einander. Das Kalibrieren erfolgt "uber ein Schachbrett-Muster. Sind die Kameras zueinander kalibriert, kann mittels eines Feature-Detektors eine Punktewolke des Helikopters generiert und der Mittelpunkt berechnet werden.
+\noindent Mittels zwei Kameras, die auf einer Ebene angebracht sind (Stereonormalfall), kann der Mittelpunkt des Helikopters und dessen Abstand zur Kamera ermittelt werden.\newline
+Zun"achst m"ussen daf"ur die Kameras einzeln und anschlie"send zu einander. Das Kalibrieren erfolgt "uber ein Schachbrett-Muster. Sind die Kameras zueinander kalibriert, kann mittels eines Feature-Detektors eine Punktewolke der Szene generiert und der Mittelpunkt des Helikopters berechnet werden.
 
 \begin{figure}%
 	\centering
 	\subfloat[Kamera-Kalibrierung]{{\includegraphics[width=6cm]{bilder/calibration} }}%
 	\qquad
-	\subfloat[Helikopter-Punktewolke]{{\includegraphics[width=6cm]{bilder/helicloud} }}%
+	\subfloat[Helikopter-Punktewolke mit berechneter Raumposition]{{\includegraphics[width=6cm]{bilder/helicloud} }}%
 	\caption{Kamera-Kalibrierung und Punktewolke}%
 	\label{fig:extendetabstract}%
 \end{figure}
-\noindent Eine m"ogliche Erweiterung des Projekts w"are das Kalibrieren von zwei Stereo-Systemen zu einander, um eine noch h"ohere Genauigkeit zu erlangen. Dies wurde versucht umzusetzen, ist allerdings gescheitert.
 
