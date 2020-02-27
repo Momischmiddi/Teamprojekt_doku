@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  27 FEB 2020 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  27 FEB 2020 22:25
 entering extended mode
 **./report.tex
 (report.tex
@@ -1247,27 +1247,37 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \epigraphwidth=\skip82
 \epigraphrule=\skip83
 )
-("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen195
+\TX@old@table=\dimen196
+\TX@old@col=\dimen197
+\TX@target=\dimen198
+\TX@delta=\dimen199
+\TX@cols=\count159
+\TX@ftn=\toks48
+) ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count159
-\float@exts=\toks48
+\c@float@type=\count160
+\float@exts=\toks49
 \float@box=\box49
-\@float@everytoks=\toks49
+\@float@everytoks=\toks50
 \@floatcapt=\box50
 )
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count160
+\c@KVtest=\count161
 \sf@farskip=\skip84
-\sf@captopadj=\dimen195
+\sf@captopadj=\dimen256
 \sf@capskip=\skip85
 \sf@nearskip=\skip86
-\c@subfigure=\count161
-\c@subfigure@save=\count162
-\c@lofdepth=\count163
-\c@subtable=\count164
-\c@subtable@save=\count165
-\c@lotdepth=\count166
+\c@subfigure=\count162
+\c@subfigure@save=\count163
+\c@lofdepth=\count164
+\c@subtable=\count165
+\c@subtable@save=\count166
+\c@lotdepth=\count167
 \sf@top=\skip87
 \sf@bottom=\skip88
 )
@@ -1284,51 +1294,51 @@ LaTeX Warning: You have requested, on input line 37, version
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count167
+\lrq@indent=\count168
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count168
-\c@listtotal=\count169
-\c@listcount=\count170
-\c@liststart=\count171
-\c@liststop=\count172
-\c@citecount=\count173
-\c@citetotal=\count174
-\c@multicitecount=\count175
-\c@multicitetotal=\count176
-\c@instcount=\count177
-\c@maxnames=\count178
-\c@minnames=\count179
-\c@maxitems=\count180
-\c@minitems=\count181
-\c@citecounter=\count182
-\c@maxcitecounter=\count183
-\c@savedcitecounter=\count184
-\c@uniquelist=\count185
-\c@uniquename=\count186
-\c@refsection=\count187
-\c@refsegment=\count188
-\c@maxextratitle=\count189
-\c@maxextratitleyear=\count190
-\c@maxextraname=\count191
-\c@maxextradate=\count192
-\c@maxextraalpha=\count193
-\c@abbrvpenalty=\count194
-\c@highnamepenalty=\count195
-\c@lownamepenalty=\count196
-\c@maxparens=\count197
-\c@parenlevel=\count198
-\blx@tempcnta=\count199
-\blx@tempcntb=\count266
-\blx@tempcntc=\count267
-\blx@maxsection=\count268
-\blx@maxsegment@0=\count269
-\blx@notetype=\count270
-\blx@parenlevel@text=\count271
-\blx@parenlevel@foot=\count272
-\blx@sectionciteorder@0=\count273
-\blx@entrysetcounter=\count274
+\c@tabx@nest=\count169
+\c@listtotal=\count170
+\c@listcount=\count171
+\c@liststart=\count172
+\c@liststop=\count173
+\c@citecount=\count174
+\c@citetotal=\count175
+\c@multicitecount=\count176
+\c@multicitetotal=\count177
+\c@instcount=\count178
+\c@maxnames=\count179
+\c@minnames=\count180
+\c@maxitems=\count181
+\c@minitems=\count182
+\c@citecounter=\count183
+\c@maxcitecounter=\count184
+\c@savedcitecounter=\count185
+\c@uniquelist=\count186
+\c@uniquename=\count187
+\c@refsection=\count188
+\c@refsegment=\count189
+\c@maxextratitle=\count190
+\c@maxextratitleyear=\count191
+\c@maxextraname=\count192
+\c@maxextradate=\count193
+\c@maxextraalpha=\count194
+\c@abbrvpenalty=\count195
+\c@highnamepenalty=\count196
+\c@lownamepenalty=\count197
+\c@maxparens=\count198
+\c@parenlevel=\count199
+\blx@tempcnta=\count266
+\blx@tempcntb=\count267
+\blx@tempcntc=\count268
+\blx@maxsection=\count269
+\blx@maxsegment@0=\count270
+\blx@notetype=\count271
+\blx@parenlevel@text=\count272
+\blx@parenlevel@foot=\count273
+\blx@sectionciteorder@0=\count274
+\blx@entrysetcounter=\count275
 \labelnumberwidth=\skip89
 \labelalphawidth=\skip90
 \biblabelsep=\skip91
@@ -1340,9 +1350,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read2
 \blx@bcfout=\write4
 \blx@langwohyphens=\language76
-\c@mincomprange=\count275
-\c@maxcomprange=\count276
-\c@mincompwidth=\count277
+\c@mincomprange=\count276
+\c@maxcomprange=\count277
+\c@mincompwidth=\count278
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1352,74 +1362,74 @@ File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count278
-\c@savedafterword=\count279
-\c@annotator=\count280
-\c@savedannotator=\count281
-\c@author=\count282
-\c@savedauthor=\count283
-\c@bookauthor=\count284
-\c@savedbookauthor=\count285
-\c@commentator=\count286
-\c@savedcommentator=\count287
-\c@editor=\count288
-\c@savededitor=\count289
-\c@editora=\count290
-\c@savededitora=\count291
-\c@editorb=\count292
-\c@savededitorb=\count293
-\c@editorc=\count294
-\c@savededitorc=\count295
-\c@foreword=\count296
-\c@savedforeword=\count297
-\c@holder=\count298
-\c@savedholder=\count299
-\c@introduction=\count300
-\c@savedintroduction=\count301
-\c@namea=\count302
-\c@savednamea=\count303
-\c@nameb=\count304
-\c@savednameb=\count305
-\c@namec=\count306
-\c@savednamec=\count307
-\c@translator=\count308
-\c@savedtranslator=\count309
-\c@shortauthor=\count310
-\c@savedshortauthor=\count311
-\c@shorteditor=\count312
-\c@savedshorteditor=\count313
-\c@labelname=\count314
-\c@savedlabelname=\count315
-\c@institution=\count316
-\c@savedinstitution=\count317
-\c@lista=\count318
-\c@savedlista=\count319
-\c@listb=\count320
-\c@savedlistb=\count321
-\c@listc=\count322
-\c@savedlistc=\count323
-\c@listd=\count324
-\c@savedlistd=\count325
-\c@liste=\count326
-\c@savedliste=\count327
-\c@listf=\count328
-\c@savedlistf=\count329
-\c@location=\count330
-\c@savedlocation=\count331
-\c@organization=\count332
-\c@savedorganization=\count333
-\c@origlocation=\count334
-\c@savedoriglocation=\count335
-\c@origpublisher=\count336
-\c@savedorigpublisher=\count337
-\c@publisher=\count338
-\c@savedpublisher=\count339
-\c@language=\count340
-\c@savedlanguage=\count341
-\c@origlanguage=\count342
-\c@savedoriglanguage=\count343
-\c@pageref=\count344
-\c@savedpageref=\count345
+\c@afterword=\count279
+\c@savedafterword=\count280
+\c@annotator=\count281
+\c@savedannotator=\count282
+\c@author=\count283
+\c@savedauthor=\count284
+\c@bookauthor=\count285
+\c@savedbookauthor=\count286
+\c@commentator=\count287
+\c@savedcommentator=\count288
+\c@editor=\count289
+\c@savededitor=\count290
+\c@editora=\count291
+\c@savededitora=\count292
+\c@editorb=\count293
+\c@savededitorb=\count294
+\c@editorc=\count295
+\c@savededitorc=\count296
+\c@foreword=\count297
+\c@savedforeword=\count298
+\c@holder=\count299
+\c@savedholder=\count300
+\c@introduction=\count301
+\c@savedintroduction=\count302
+\c@namea=\count303
+\c@savednamea=\count304
+\c@nameb=\count305
+\c@savednameb=\count306
+\c@namec=\count307
+\c@savednamec=\count308
+\c@translator=\count309
+\c@savedtranslator=\count310
+\c@shortauthor=\count311
+\c@savedshortauthor=\count312
+\c@shorteditor=\count313
+\c@savedshorteditor=\count314
+\c@labelname=\count315
+\c@savedlabelname=\count316
+\c@institution=\count317
+\c@savedinstitution=\count318
+\c@lista=\count319
+\c@savedlista=\count320
+\c@listb=\count321
+\c@savedlistb=\count322
+\c@listc=\count323
+\c@savedlistc=\count324
+\c@listd=\count325
+\c@savedlistd=\count326
+\c@liste=\count327
+\c@savedliste=\count328
+\c@listf=\count329
+\c@savedlistf=\count330
+\c@location=\count331
+\c@savedlocation=\count332
+\c@organization=\count333
+\c@savedorganization=\count334
+\c@origlocation=\count335
+\c@savedoriglocation=\count336
+\c@origpublisher=\count337
+\c@savedorigpublisher=\count338
+\c@publisher=\count339
+\c@savedpublisher=\count340
+\c@language=\count341
+\c@savedlanguage=\count342
+\c@origlanguage=\count343
+\c@savedoriglanguage=\count344
+\c@pageref=\count345
+\c@savedpageref=\count346
 \shorthandwidth=\skip97
 \shortjournalwidth=\skip98
 \shortserieswidth=\skip99
@@ -1459,19 +1469,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
 def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count346
-\c@textcitetotal=\count347
-\c@textcitemaxnames=\count348
-\c@biburlbigbreakpenalty=\count349
-\c@biburlbreakpenalty=\count350
-\c@biburlnumpenalty=\count351
-\c@biburlucpenalty=\count352
-\c@biburllcpenalty=\count353
+\c@textcitecount=\count347
+\c@textcitetotal=\count348
+\c@textcitemaxnames=\count349
+\c@biburlbigbreakpenalty=\count350
+\c@biburlbreakpenalty=\count351
+\c@biburlnumpenalty=\count352
+\c@biburlucpenalty=\count353
+\c@biburllcpenalty=\count354
 \biburlbigskip=\muskip12
 \biburlnumskip=\muskip13
 \biburlucskip=\muskip14
 \biburllcskip=\muskip15
-\c@smartand=\count354
+\c@smartand=\count355
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1485,8 +1495,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
 ard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count355
-\c@bbx:relatedtotal=\count356
+\c@bbx:relatedcount=\count356
+\c@bbx:relatedtotal=\count357
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1518,21 +1528,21 @@ Package csquotes Info: ... found 'babel' package.
  (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 15.
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1550,22 +1560,22 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count357
+\c@lstlisting=\count358
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count358
-\scratchdimen=\dimen196
+\scratchcounter=\count359
+\scratchdimen=\dimen257
 \scratchbox=\box51
-\nofMPsegments=\count359
-\nofMParguments=\count360
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count361
-\MPscratchDim=\dimen197
-\MPnumerator=\count362
-\makeMPintoPDFobject=\count363
-\everyMPtoPDFconversion=\toks51
+\nofMPsegments=\count360
+\nofMParguments=\count361
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count362
+\MPscratchDim=\dimen258
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
+\everyMPtoPDFconversion=\toks52
 )
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -1617,7 +1627,7 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 15.
 
 ("C:\Users\morit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
 ty"
@@ -1627,11 +1637,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count364
+\c@section@level=\count365
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
  (report.out) (report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
@@ -1674,8 +1684,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
  (report.bbl)
-Package biblatex Info: Reference section=0 on input line 14.
-Package biblatex Info: Reference segment=0 on input line 14.
+Package biblatex Info: Reference section=0 on input line 15.
+Package biblatex Info: Reference segment=0 on input line 15.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1714,13 +1724,13 @@ r\tikz\libraries\tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 44.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 44.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 45.
 <report_cover_empty.pdf, id=126, 597.50829pt x 845.0471pt>
 File: report_cover_empty.pdf Graphic file (type pdf)
 <use report_cover_empty.pdf>
-Package pdftex.def Info: report_cover_empty.pdf  used on input line 44.
+Package pdftex.def Info: report_cover_empty.pdf  used on input line 45.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [1
 
@@ -1776,7 +1786,7 @@ cloud.png>])pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \tableofcontents
+l.53 \tableofcontents
                       [4
 
 ] (report.toc
@@ -1790,14 +1800,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 \newpage
+l.54 \newpage
               [5
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 \newpage
+l.54 \newpage
               [6] (einleitung.tex
 Kapitel 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <96> not available
@@ -2139,18 +2149,29 @@ een already used, duplicate ignored
                    \relax 
 l.124 
        [27 <./bilder/depth_left.png> <./bilder/depth_right.png> <./bilder/depth
-_side.png>]) (Probleme.texpdfTeX warning (ext4): destination with the same iden
-tifier (name{page.}) has been already used, duplicate ignored
+_side.png>]pdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148 
+       [28 <./bilder/depth_result.png> <./bilder/depth_coord.png>]
+<bilder/abstandsmessung.png, id=484, 303.63437pt x 170.6375pt>
+File: bilder/abstandsmessung.png Graphic file (type png)
+<use bilder/abstandsmessung.png>
+Package pdftex.def Info: bilder/abstandsmessung.png  used on input line 163.
+(pdftex.def)             Requested size: 303.63362pt x 170.63707pt.
+)
+(Probleme.texpdfTeX warning (ext4): destination with the same identifier (name{
+page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Probleme} [28 <./bilder/depth_result.png> <./bilder/depth_coord.pn
-g>]pdfTeX warning (ext4): destination with the same identifier (name{page.}) ha
-s been already used, duplicate ignored
+            {Probleme} [29]pdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Probleme} [29]
+            {Probleme} [30 <./bilder/abstandsmessung.png>]
 Kapitel 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -2168,7 +2189,7 @@ een already used, duplicate ignored
                    \relax 
 l.8 \noindent
               Des Weiteren war es uns oft nicht möglich aus der OpenCV Doku...
-[30
+[31
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -2180,23 +2201,23 @@ age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Fazit} [31]
+            {Fazit} [32]
 Kapitel 7.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \listoffigures
-                    [32
+l.64 \listoffigures
+                    [33
 
 ]
-Overfull \hbox (148.5058pt too wide) in paragraph at lines 63--63
+Overfull \hbox (148.5058pt too wide) in paragraph at lines 64--64
 \T1/cmtt/m/n/10.95 com / url ? sa = t & rct = j & q = &esrc = s & source = web 
 & cd = 1 & ved = 2ahUKEwi8s6WlwfLnAhXGeZoKHetUDj8QFjAAegQIARAB &
  []
 
 
-Overfull \hbox (131.53069pt too wide) in paragraph at lines 63--63
+Overfull \hbox (131.53069pt too wide) in paragraph at lines 64--64
 \T1/cmtt/m/n/10.95 2FWS04 % 2Fhumanoids % 2Fausarbeitung % 2FStereoalgorithmen1
  . pdf & usg = AOvVaw2TnHMxL7VlIVDFfRjGsHpd}$[][]
  []
@@ -2205,11 +2226,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \listoffigures
-                    [33
+l.64 \listoffigures
+                    [34
 
 ]
-Overfull \hbox (54.27911pt too wide) in paragraph at lines 63--63
+Overfull \hbox (54.27911pt too wide) in paragraph at lines 64--64
 []\T1/phv/m/n/10.95 Wikipedia. \T1/phv/m/sl/10.95 Epi-po-lar-geo-me-trie\T1/phv
 /m/n/10.95 . \T1/phv/m/sc/10.95 url\T1/phv/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 
 https : / / de . wikipedia . org / wiki / Epipolargeometrie #
@@ -2219,8 +2240,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \listoffigures
-                    [34] (report.lof)
+l.64 \listoffigures
+                    [35] (report.lof)
 \tf@lof=\write7
 \openout7 = `report.lof'.
 
@@ -2228,22 +2249,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 \end{document}
-                    [35
+l.66 \end{document}
+                    [36
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
  (report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 3904026E4A3294AE65FBD64F75CBD728;1884.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                report
@@ -2254,10 +2275,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29777 strings out of 493305
- 547844 string characters out of 3129803
- 1015580 words of memory out of 3000000
- 32634 multiletter control sequences out of 15000+200000
+ 29833 strings out of 493305
+ 548664 string characters out of 3129803
+ 1016839 words of memory out of 3000000
+ 32683 multiletter control sequences out of 15000+200000
  60929 words of font info for 76 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  69i,10n,74p,1552b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2277,9 +2298,9 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/morit/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on report.pdf (35 pages, 13358048 bytes).
+Output written on report.pdf (36 pages, 13693831 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 768 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
 

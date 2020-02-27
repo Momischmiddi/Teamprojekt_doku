@@ -128,11 +128,38 @@ F3
 
 \noindent Wendet man dieses Gesetz auf die Formeln \ref{eq:one} - \ref{eq:tiefe} an, erhält man folgende Fehlerabschätzung für die Größen $z$, $y$ und $z$ unter der Annahme, dass die Brennweite $f$ und die Baseline $B$ fehlerfrei sind \cite{frz}:
 
-\begin{equation}
-F4.3
+\begin{equation}\label{eq:fourone}
+F41
 \end{equation}
+
+\begin{equation}\label{eq:fourtwo}
+F42
+\end{equation}
+
+\begin{equation}\label{eq:fourthree}
+F43
+\end{equation}
+
 
 \section{Genauigkeitsabschätzung des Systems}
 \label{sec:genauigkeit}
 
 Zur Genauigkeitsbeurteilung haben wir drei Mal das gleiche Objekt in jeweils einem anderen Abstand zum Stereosystem aufgenommen. Dabei erhielten wir folgende Resultate:
+
+\begin{center}
+	\begin{tabular}{  l | l | l }
+		\hline
+		Gemessener Abstand [cm] & Berechneter Abstand [cm] & Differenz [cm] \\ \hline
+		37 & 31,05 & 5,95 \\ \hline
+		54 & 48,78 & 5,22 \\
+		100 & 96,81 & 3,19 \\
+	\end{tabular}
+\end{center}
+
+\noindent Überraschenderweise nimmt der Fehler mit zunehmender Distanz in diesem Fall ab. Auf Grund der Fehlerformel für $z$ (s. \ref{eq:fourone}) war zu erwarten, dass der Fehler in der Tiefe quadratisch mit der Distanz wächst, was hier jedoch nicht der Fall ist. Auch bei der händischen Tiefenberechnung mit zwei rektifizierten Schachbrettmustern trat ein Phänomen auf, wobei die Disparität von Punkten links in den beiden Bildern nach rechts stark zunahm, obwohl die Punkte in der gleichen Entfernung zur Kamera waren.\newline
+\noindent Dies ist auch die Ursache, weshalb keine ausführliche Fehlerfortpflanzungsrechnung für unser System durchgeführt wurde, da bereits a priori absehbar war, wenig aussagekräftige Ergebnisse zu erhalten. Leider konnten wir keine plausible Erklärung für dieses Verhalten finden, die einzige Vermutung ist, dass etwas mit der Kalibrierung der Kameras nicht ganz in Ordnung ist, was dieses unerwartete Verhalten verursacht. Doch auch durch mehrmaliges Neukalibrieren konnte das Problem nicht behoben werden. Folgende Abbildung zeigt den Versuchsaufbau:
+
+\begin{figure}[H]
+	\includegraphics[scale=1.0]{bilder/abstandsmessung}
+	\caption[Versuchsaufbau mit zwei Stereokamerasystemen und Objekt zur Abstandsmessung]{Versuchsaufbau mit zwei Stereokamerasystemen und Objekt zur Abstandsmessung}
+\end{figure}
