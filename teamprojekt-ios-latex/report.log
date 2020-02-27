@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  27 FEB 2020 21:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  27 FEB 2020 22:07
 entering extended mode
 **./report.tex
 (report.tex
@@ -2003,12 +2003,12 @@ ored
                    \relax 
 l.89 
       [18 <./bilder/szene.png> <./bilder/baseline.png>]
-<bilder/nonstereo.png, id=356, 2577.63pt x 963.6pt>
+<bilder/nonstereo.png, id=355, 2577.63pt x 963.6pt>
 File: bilder/nonstereo.png Graphic file (type png)
 <use bilder/nonstereo.png>
 Package pdftex.def Info: bilder/nonstereo.png  used on input line 101.
 (pdftex.def)             Requested size: 386.62782pt x 144.53375pt.
-<bilder/nonparallal.png, id=357, 197.73875pt x 310.15875pt>
+<bilder/nonparallal.png, id=356, 197.73875pt x 310.15875pt>
 File: bilder/nonparallal.png Graphic file (type png)
 <use bilder/nonparallal.png>
 Package pdftex.def Info: bilder/nonparallal.png  used on input line 107.
@@ -2024,17 +2024,17 @@ l.111
                    \relax 
 l.124 
        [20 <./bilder/nonparallal.png>]
-<bilder/heli_left.png, id=387, 96.86188pt x 72.77188pt>
+<bilder/heli_left.png, id=386, 96.86188pt x 72.77188pt>
 File: bilder/heli_left.png Graphic file (type png)
 <use bilder/heli_left.png>
 Package pdftex.def Info: bilder/heli_left.png  used on input line 133.
 (pdftex.def)             Requested size: 170.71652pt x 128.26097pt.
-<bilder/heli_right.png, id=388, 96.86188pt x 74.77937pt>
+<bilder/heli_right.png, id=387, 96.86188pt x 74.77937pt>
 File: bilder/heli_right.png Graphic file (type png)
 <use bilder/heli_right.png>
 Package pdftex.def Info: bilder/heli_right.png  used on input line 135.
 (pdftex.def)             Requested size: 170.71652pt x 131.79922pt.
-<bilder/Tiefenkarte.png, id=390, 96.86188pt x 74.77937pt>
+<bilder/Tiefenkarte.png, id=389, 96.86188pt x 74.77937pt>
 File: bilder/Tiefenkarte.png Graphic file (type png)
 <use bilder/Tiefenkarte.png>
 Package pdftex.def Info: bilder/Tiefenkarte.png  used on input line 143.
@@ -2053,7 +2053,7 @@ een already used, duplicate ignored
 l.153 
        [21 <./bilder/heli_left.png> <./bilder/heli_right.png> <./bilder/Tiefenk
 arte.png>]
-<bilder/cloud_result.png, id=402, 256.45813pt x 192.21812pt>
+<bilder/cloud_result.png, id=401, 256.45813pt x 192.21812pt>
 File: bilder/cloud_result.png Graphic file (type png)
 <use bilder/cloud_result.png>
 Package pdftex.def Info: bilder/cloud_result.png  used on input line 155.
@@ -2084,7 +2084,7 @@ dentifier (name{page.}) has been already used, duplicate ignored
 l.1 \chapter
             {Experimente} [24]
 Kapitel 5.
-<bilder/experimentcalib.png, id=424, 481.8pt x 361.35pt>
+<bilder/experimentcalib.png, id=423, 481.8pt x 361.35pt>
 File: bilder/experimentcalib.png Graphic file (type png)
 <use bilder/experimentcalib.png>
 Package pdftex.def Info: bilder/experimentcalib.png  used on input line 10.
@@ -2097,55 +2097,60 @@ l.25 \end{equation}
                     [25
 
  <./bilder/experimentcalib.png (PNG copy)>]
-<bilder/simple_calib.png, id=433, 401.5pt x 145.04187pt>
+<bilder/simple_calib.png, id=432, 401.5pt x 145.04187pt>
 File: bilder/simple_calib.png Graphic file (type png)
 <use bilder/simple_calib.png>
 Package pdftex.def Info: bilder/simple_calib.png  used on input line 31.
 (pdftex.def)             Requested size: 401.49901pt x 145.0415pt.
-<bilder/depth_left.png, id=437, 325.215pt x 243.91125pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \end{equation}
+                    [26 <./bilder/simple_calib.png>]
+<bilder/depth_left.png, id=453, 325.215pt x 243.91125pt>
 File: bilder/depth_left.png Graphic file (type png)
 <use bilder/depth_left.png>
-Package pdftex.def Info: bilder/depth_left.png  used on input line 47.
+Package pdftex.def Info: bilder/depth_left.png  used on input line 94.
 (pdftex.def)             Requested size: 133.84424pt x 100.38387pt.
-<bilder/depth_right.png, id=438, 325.71687pt x 243.91125pt>
+<bilder/depth_right.png, id=454, 325.71687pt x 243.91125pt>
 File: bilder/depth_right.png Graphic file (type png)
 <use bilder/depth_right.png>
-Package pdftex.def Info: bilder/depth_right.png  used on input line 51.
+Package pdftex.def Info: bilder/depth_right.png  used on input line 98.
 (pdftex.def)             Requested size: 133.84424pt x 100.23128pt.
-<bilder/depth_side.png, id=439, 325.71687pt x 243.91125pt>
+<bilder/depth_side.png, id=455, 325.71687pt x 243.91125pt>
 File: bilder/depth_side.png Graphic file (type png)
 <use bilder/depth_side.png>
-Package pdftex.def Info: bilder/depth_side.png  used on input line 55.
+Package pdftex.def Info: bilder/depth_side.png  used on input line 102.
 (pdftex.def)             Requested size: 133.84424pt x 100.23128pt.
-<bilder/depth_result.png, id=443, 325.71687pt x 243.91125pt>
+<bilder/depth_result.png, id=459, 325.71687pt x 243.91125pt>
 File: bilder/depth_result.png Graphic file (type png)
 <use bilder/depth_result.png>
-Package pdftex.def Info: bilder/depth_result.png  used on input line 64.
+Package pdftex.def Info: bilder/depth_result.png  used on input line 111.
 (pdftex.def)             Requested size: 200.75996pt x 150.34134pt.
-<bilder/depth_coord.png, id=444, 317.185pt x 232.87pt>
+<bilder/depth_coord.png, id=460, 317.185pt x 232.87pt>
 File: bilder/depth_coord.png Graphic file (type png)
 <use bilder/depth_coord.png>
-Package pdftex.def Info: bilder/depth_coord.png  used on input line 68.
+Package pdftex.def Info: bilder/depth_coord.png  used on input line 115.
 (pdftex.def)             Requested size: 200.75996pt x 147.39821pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \end{equation}
-                    [26 <./bilder/simple_calib.png>]pdfTeX warning (ext4): dest
-ination with the same identifier (name{page.}) has been already used, duplicate
- ignored
-<to be read again> 
-                   \relax 
-l.88 
-      [27 <./bilder/depth_left.png> <./bilder/depth_right.png> <./bilder/depth_
-side.png> <./bilder/depth_result.png> <./bilder/depth_coord.png>])
-(Probleme.texpdfTeX warning (ext4): destination with the same identifier (name{
-page.}) has been already used, duplicate ignored
+l.124 
+       [27 <./bilder/depth_left.png> <./bilder/depth_right.png> <./bilder/depth
+_side.png>]) (Probleme.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Probleme} [28]
+            {Probleme} [28 <./bilder/depth_result.png> <./bilder/depth_coord.pn
+g>]pdfTeX warning (ext4): destination with the same identifier (name{page.}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Probleme} [29]
 Kapitel 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -2163,7 +2168,7 @@ een already used, duplicate ignored
                    \relax 
 l.8 \noindent
               Des Weiteren war es uns oft nicht möglich aus der OpenCV Doku...
-[29
+[30
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -2175,14 +2180,14 @@ age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Fazit} [30]
+            {Fazit} [31]
 Kapitel 7.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.63 \listoffigures
-                    [31
+                    [32
 
 ]
 Overfull \hbox (148.5058pt too wide) in paragraph at lines 63--63
@@ -2201,7 +2206,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.63 \listoffigures
-                    [32
+                    [33
 
 ]
 Overfull \hbox (54.27911pt too wide) in paragraph at lines 63--63
@@ -2215,7 +2220,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.63 \listoffigures
-                    [33] (report.lof)
+                    [34] (report.lof)
 \tf@lof=\write7
 \openout7 = `report.lof'.
 
@@ -2224,7 +2229,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.65 \end{document}
-                    [34
+                    [35
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
@@ -2233,7 +2238,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E6AD702F04DC51307AAA817D9EC4BDF8;1896.
+(rerunfilecheck)             Checksum: 3904026E4A3294AE65FBD64F75CBD728;1884.
 
 
 LaTeX Warning: There were undefined references.
@@ -2249,9 +2254,9 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29776 strings out of 493305
- 547827 string characters out of 3129803
- 1014691 words of memory out of 3000000
+ 29777 strings out of 493305
+ 547844 string characters out of 3129803
+ 1015580 words of memory out of 3000000
  32634 multiletter control sequences out of 15000+200000
  60929 words of font info for 76 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
@@ -2272,9 +2277,9 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/morit/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on report.pdf (34 pages, 13355818 bytes).
+Output written on report.pdf (35 pages, 13358048 bytes).
 PDF statistics:
- 751 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
  383 words of extra memory for PDF output out of 10000 (max. 10000000)
 

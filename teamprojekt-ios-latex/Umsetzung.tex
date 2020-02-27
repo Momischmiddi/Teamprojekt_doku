@@ -85,7 +85,7 @@ Wie auf dem Bild \ref{fig:stereo1} zu sehen ist, handelt es sich bei unserem Auf
 
 \noindent Da die Kameras horizontal verschoben sind, erhalten wir den Stereonormalfall, der wie folgt beschrieben wird: \textit{Das achsparallele Stereosystem zeichnet sich durch zwei Kameras aus, die nur horizontal verschoben und deren Koordinatensysteme nicht gegeneinander verdreht sind \cite{Tu}.} \newline
 \noindent Bei der Stereokalibrierung werden sowohl inneren Kameraparameter f"ur das Stereokamerapaar, als auch die geometrische Lage zwischen den Kameras berechnet \cite{zbs}. OpenCV bietet hierf"ur die Funktion \textit{stereoCalibrate}. Diese Funktion erwartet die vorher berechneten Kameramatrizen und Verzeichnungskoeffizienten beider Kameras. Zudem werden Von beiden Kameras Bildpunkte ben"otigt, die auf die selben Objektpunkte abbilden. Demnach m"ussen beide Kameras auf das selbe Kalibrierobjekt kalibriert werden \cite{ocvs}. Im Programm wird mit beiden Kameras ein Foto der Szene gemacht und anschlie"send versucht, das Schachbrettmuster zu detektieren. War die Detektion bei beiden Bildern erfolgreich, werden die Bild- und Objekt-Punkte gespeichert und der Vorgang 50 mal wiederholt. Nach 50 erfolgreichen Detektierungen werden die Kameras zu einander kalibriert.\newline
-Durch die Stereokalibrierung erhalten wir die Rotation und Translation beider Kameras zueinander. Mit diesen Werten ist es m"oglich, Informationen zur Tiefe zu ermitteln. Wie die Werte validiert wurden, wird in \ref{sec:stereovalid} erl"autert.
+Durch die Stereokalibrierung erhalten wir die Rotation und Translation beider Kameras zueinander. Mit diesen Werten ist es m"oglich, Informationen zur Tiefe zu ermitteln.
 
 \subsection{Entzeichnung}
 \label{sec:entzeichnung}

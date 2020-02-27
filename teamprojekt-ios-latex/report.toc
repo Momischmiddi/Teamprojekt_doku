@@ -52,9 +52,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Vereinfachte Kalibrierung}{}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Tiefe und Stereokalibrierung}{}{section.5.2}
+\contentsline {section}{\numberline {5.2}Fehlerfortpflanzung}{}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Fehlerfortpflanzung und Tiefenvalidierung}{}{section.5.3}
+\contentsline {section}{\numberline {5.3}Genauigkeitsabsch\IeC {\"a}tzung des Systems}{}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Probleme}{}{chapter.6}
 \defcounter {refsection}{0}\relax 
