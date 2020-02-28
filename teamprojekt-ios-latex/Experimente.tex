@@ -211,7 +211,7 @@ initiale Transformation $T$ beschrieben wird. Diese Transformation wird auf die 
 Als Gütemaß für die aktuelle Transformation wird die Summe der quadratischen Distanzen genommen. Diese gilt es zu minimieren. Aus diesen Ergebnissen werden dann die neuen Transformationsparameter abgeleitet:
 
 \begin{equation}
-Formel..
+T \leq argmin (\sum || d(q_{n}, p_{n}) || ^{2})
 \end{equation}
 
 \noindent Diese Schritte werden nun so oft wiederholt bei ein akzeptables Optimum gefunden ist. Der ICP Algorithmus terminiert also, sobald entweder ein definierter Schwellwert für das Gütemaß überschritten, oder eine definierte Anzahl an Iterationen erreicht wurde.
