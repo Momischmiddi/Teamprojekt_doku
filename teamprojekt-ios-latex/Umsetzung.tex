@@ -29,11 +29,12 @@ F"ur eine Messung, bei der der Fehler minimiert werden soll, ist das Kalibrieren
 \end{description}
 
 \noindent Da es ich bei dem System um ein Stereokamera-System handelt, ist die Kalibrierung von diesem etwas komplizierter.\newline
-Zuerst m"ussen die Kameras gesondert kalibriert werden. Dies wird mit der Funktion \textit{calibrateCamera} von OpenCV durchgef"uhrt. F"ur die Kalibrierung wird ein Schachbrett-Muster verwendet. Wichtig ist, dass bei der Kalibrierung beide Kameras dasselbe Bild verwenden. F"ur die Erkennung des Schachbretts wird die OpenCV-Funktion \textit{findChessboardCorners} verwendet. Diese liefert die Objekt- und Bild-Punkte der Aufnahme. Bei den Objekt-Punkten handelt es sich um die 3D-Punkte des Bildes, bei den Bild-Punkten um die 2D-Punkte \cite{OcvD}.
+Zuerst m"ussen die Kameras gesondert kalibriert werden. Dies wird mit der Funktion \textit{calibrateCamera} von OpenCV durchgef"uhrt. F"ur die Kalibrierung wird ein Schachbrett-Muster verwendet. Wichtig ist, dass bei der Kalibrierung von Stereokameras dasselbe Bild verwenden. F"ur die Erkennung des Schachbretts wird die OpenCV-Funktion \textit{findChessboardCorners} verwendet. Diese liefert die Objekt- und Bild-Punkte der Aufnahme. Bei den Objekt-Punkten handelt es sich um die 3D-Punkte des Bildes, bei den Bild-Punkten um die 2D-Punkte \cite{OcvD}. In \ref{fig:chessboards} sieht man das Resultat von \textit{findChessboardCorners}. Die gefundenen Ecken des Schachbretts werden hier farblich visualisiert.
 
 \begin{figure}[H]
 	\includegraphics[scale=0.4]{bilder/calibration}
 	\caption[Kalibrierung]{Kalibrierung}
+	\label{fig:chessboards}
 \end{figure}
 
 \noindent F"ur eine m"oglichst genaue Kalibrierung werden 50 Bilder verwendet. Anhand dieser wird jede Kamera mittels \textit{calibrateCamera} kalibriert.\newline
@@ -74,7 +75,7 @@ Der Reprojection Error ist ein qualitatives Ma"s für die Genauigkeit. Der Repro
 	\label{fig:stereo1}%
 \end{figure}
 
-Wie auf dem Bild \ref{fig:stereo1} zu sehen ist, handelt es sich bei unserem Aufbau um ein Stereosystem. Dies ist notwendig f"ur das Berechnen von Tiefeinformationen. Liegen alle Referenzpunkte auf einer geraden, so kann mittels Triangulation, wie auf \ref{fig:baseline} zu sehen ist, der $z$-Achsen Wert der Punkte berechnet werden.
+Wie auf dem Bild \ref{fig:stereo1} zu sehen ist, handelt es sich bei unserem Aufbau um ein Stereosystem. Die beiden Kameras sind horizontal zueinander verschoben, fotografieren aber zum gr"o"sten Teil die selbe Szene. Dies ist notwendig f"ur das Berechnen von Tiefeinformationen. Liegen alle Referenzpunkte auf einer Geraden, so kann mittels Triangulation, wie auf \ref{fig:baseline} zu sehen ist, der $z$-Achsen Wert der Punkte berechnet werden.
 
 \begin{figure}[H]
 	\includegraphics[scale=1.5]{bilder/baseline}
@@ -84,13 +85,15 @@ Wie auf dem Bild \ref{fig:stereo1} zu sehen ist, handelt es sich bei unserem Auf
 \end{figure}
 
 \noindent Da die Kameras horizontal verschoben sind, erhalten wir den Stereonormalfall, der wie folgt beschrieben wird: \textit{Das achsparallele Stereosystem zeichnet sich durch zwei Kameras aus, die nur horizontal verschoben und deren Koordinatensysteme nicht gegeneinander verdreht sind \cite{Tu}.} \newline
-\noindent Bei der Stereokalibrierung werden sowohl inneren Kameraparameter f"ur das Stereokamerapaar, als auch die geometrische Lage zwischen den Kameras berechnet \cite{zbs}. OpenCV bietet hierf"ur die Funktion \textit{stereoCalibrate}. Diese Funktion erwartet die vorher berechneten Kameramatrizen und Verzeichnungskoeffizienten beider Kameras. Zudem werden Von beiden Kameras Bildpunkte ben"otigt, die auf die selben Objektpunkte abbilden. Demnach m"ussen beide Kameras auf das selbe Kalibrierobjekt kalibriert werden \cite{ocvs}. Im Programm wird mit beiden Kameras ein Foto der Szene gemacht und anschlie"send versucht, das Schachbrettmuster zu detektieren. War die Detektion bei beiden Bildern erfolgreich, werden die Bild- und Objekt-Punkte gespeichert und der Vorgang 50 mal wiederholt. Nach 50 erfolgreichen Detektierungen werden die Kameras zu einander kalibriert.\newline
+\noindent Bei der Stereokalibrierung werden sowohl inneren Kameraparameter f"ur das Stereokamerapaar, als auch die geometrische Lage zwischen den Kameras berechnet \cite{zbs}. OpenCV bietet hierf"ur die Funktion \textit{stereoCalibrate}. Diese Funktion erwartet die vorher berechneten Kameramatrizen und Verzeichnungskoeffizienten beider Kameras. Zudem werden von beiden Kameras Bildpunkte ben"otigt, die auf die selben Objektpunkte abbilden. Demnach m"ussen beide Kameras auf das selbe Kalibrierobjekt kalibriert werden \cite{ocvs}. Im Programm wird mit beiden Kameras ein Foto der Szene gemacht und anschlie"send versucht, das Schachbrettmuster zu detektieren. War die Detektion bei beiden Bildern erfolgreich, werden die Bild- und Objekt-Punkte gespeichert und der Vorgang 50 mal wiederholt. Nach 50 erfolgreichen Detektierungen werden die Kameras zu einander kalibriert.\newline
 Durch die Stereokalibrierung erhalten wir die Rotation und Translation beider Kameras zueinander. Mit diesen Werten ist es m"oglich, Informationen zur Tiefe zu ermitteln.
 
 \subsection{Entzeichnung}
 \label{sec:entzeichnung}
 
-Wie in \ref{sec:kalibrierung} erw"ahnt, dient die Kalibrierung die Kompensation der Verzeichnung. Dieser Vorgang wird Entzeichnung genannt. Die Verzeichnung entsteht durch die Bauform der Linse und nimmt mit der Brennweite zu \cite{wie}. Das Entzeichnen eines Bildes erfolgt in OpenCV mittels der Funktion \textit{initUndistortRectifyMap}.
+Durch das Objektiv einer Kamera entstehen bei der optischen Abbildung Verzeichnungen. Die Stärke dieser ist dabei vom eingesetzten Objektiv abhängig \cite{wie}. Die Verzerrung sorgt im Bild für eine fehlerhaft Darstellung von Geometrien. So erscheinen die in Wirklichkeit geraden Linien im Bild als Kurve.
+Die Stärke der Verzerrung im Bild folgt der Form der Linse. So ist sie am Rand des Bildes bedeutend stärker wahr zu nehmen als in der Bild Mitte.\newline
+\noindent Unter der Bildentzeichnung versteht man das Herausrechnen der oben beschriebenen Verzeichnung. Dies ist möglich, wenn das Kamerasystem kalibriert wurde. durch das Verwenden von einheitlichen, geometrischen Formen, z.B. Schachbrettmuster, kann so der Fehler durch Rückprojektion herausgerechnet werden. Die resultierende optische Abbildung enthält so die korrekten geometrischen Eigenschaften des Originals. Das Entzeichnen eines Bildes erfolgt in OpenCV mittels der Funktion \textit{initUndistortRectifyMap}.
 
 \subsection{Rektifizierung}
 \label{sec:rektifizierung}
@@ -109,12 +112,12 @@ Wie in \ref{sec:kalibrierung} erw"ahnt, dient die Kalibrierung die Kompensation 
 	\label{fig:vergr}%
 \end{figure}
 
-\noindent \ref{fig:steresene} zeigt eine Aufnahme der Kameras. Vergr"o"sert man diese wie in \ref{fig:vergr} sieht man, dass Referenzpunkte nicht immer auf einer Geraden liegen. Dies liegt an der Rotation um die $x$-Achse der beiden Kameras. Diese entsteht zum einen durch das nicht exakte Stativ, zum anderen durch die Montur der Kameras an diesem. Aufgrund dieser Rotation ist es nicht m"oglich Tiefeninformationen der ganzen Szene zu ermitteln. Um dieses Problem zu beheben m"ussen die Bilder rektifiziert werden \cite{zbs}. Mittels der Rektifizierung wird die Rotation beider Kameras berechnet und auf den jeweiligen Aufnahmen kompensiert, sodass Referenzpunkte auf einer geraden Linie liegen. In der Epipolargeometrie wird diese Gerade die Epipolarlinie genannt \cite{ocvs} \cite{wepi}. Nach der Rektifizierung sind alle diese Epipolarlinien parallel. Die Rektifizierung wird in OpenCV mittels der Funktion \textit{stereoRectify} erreicht.
+\noindent In \ref{fig:steresene} ist eine Aufnahme der Kameras zu sehen. Durch das genaue Hinsehen erkennt man, dass Referenzpunkte nicht immer auf einer Geraden liegen. Dies ist durch eine Vergr"o"serung, wie in \ref{fig:vergr}, dargestellt. Dies liegt an der Rotation um die $x$-Achse der beiden Kameras. Diese entsteht zum einen durch das nicht exakte Stativ, zum anderen durch die Montur der Kameras an diesem. Aufgrund dieser Rotation ist es nicht m"oglich Tiefeninformationen der ganzen Szene zu ermitteln. Um dieses Problem zu beheben, m"ussen die Bilder rektifiziert werden \cite{zbs}. Mittels der Rektifizierung wird die Rotation beider Kameras berechnet und auf den jeweiligen Aufnahmen kompensiert, sodass Referenzpunkte auf einer geraden Linie liegen. In der Epipolargeometrie wird diese Gerade die Epipolarlinie genannt \cite{ocvs} \cite{wepi}. Nach der Rektifizierung sind alle diese Epipolarlinien parallel. Die Rektifizierung wird in OpenCV mittels der Funktion \textit{stereoRectify} erreicht.
 
 \section{Generierung einer Tiefenkarte} 
 \label{sec:gernerierungdep}
 
-Die Tiefenkarte, aus der die Punktewolke generiert wird, wird mit Hilfe des Blockmatching Algorithmus berechnet. Dabei handelt es sich um einen objektorientierter Algorithmus, der zwei gleichgroße Blöcke aus verschiedenen Bildern vergleicht. Es wird ein Bereich im ersten Bild mit allen gleichgroßen Bereichen im zweiten verglichen. Dieser Bereich ist eine \textit{n x m}-Matrix. Der mittlere Quadratische Fehler (MSE) dient als vergleichsmaß, welches sie wie folgt berechnet \cite{HAW}:
+Die Tiefenkarte, aus der die Punktewolke generiert wird, wird mit Hilfe des Blockmatching Algorithmus berechnet. Dabei handelt es sich um einen objektorientierter Algorithmus, der zwei gleichgroße Blöcke aus verschiedenen Bildern vergleicht. Es wird ein Bereich im ersten Bild mit allen gleichgroßen Bereichen im zweiten verglichen. Dieser Bereich ist eine \textit{n x m}-Matrix. Der mittlere Quadratische Fehler (MSE) dient als vergleichsmaß, welches sich wie folgt berechnet \cite{HAW}:
 
 \begin{equation}
 MSE(x,y,\Delta) = \dfrac{1}{n-m} \sum_{i=-k}^k \sum_{j=-k}^k (|G_{L}(x+i, y+j) - G_{R}(x+i+\Delta, y+j)|^2)
@@ -174,7 +177,7 @@ SSE=\sum_{i=1}^K \sum_{x \in C_i} dist(c_i, x)^{2}
 handelt es sich um den euklidische Abstand von dem Clustermittelpunkt zu dem jeweiligen Punkt. Eine Quadrierung wird vorgenommen um das Vorzeichen zu eliminieren \cite{TUM}. Durch die gegebenen Umstände ist eine Vereinfachung möglich:\newline
 
 \begin{equation}
-SSE=\sum_{x \in C_i} dist(c_i, x)^{2} \sum_{i=1}^K
+SSE=\sum_{x \in c_i} dist(c_i, x)^{2}
 \end{equation}
 
 \noindent Der Anpassungsschritt, in dem der neue Clustermittelpunkt gewählt wird, wird durch das arithmetisches Mittel ausgerechnet:
@@ -185,8 +188,8 @@ SSE=\sum_{x \in C_i} dist(c_i, x)^{2} \sum_{i=1}^K
 
 \begin{figure}[H]
 	\includegraphics[scale=0.75]{bilder/helicloud}
-	\caption[Helikopter Cluster]{Helikopter Cluster}
+	\caption[Helikoptercluster]{Helikoptercluster}
 	\label{fig:helimeans}%
 \end{figure}
 
-\noindent In \ref{fig:helimeans} sieht man den angewandten K-Means Algorithmus auf eine generierte Punktewolke aus unserem Kamerasystem. Gut zu erkennen ist, dass der Mittelpunkt des Helikopterclusters auch der tats"achliche Mittelpunkt des Helikopters ist.
+\noindent In \ref{fig:helimeans} sieht man den angewandten K-Means Algorithmus auf eine generierte Punktewolke aus unserem Kamerasystem. Gut zu erkennen ist, dass der Mittelpunkt des Helikopterclusters auch in der N"ahe des tats"achliche Mittelpunkt des Helikopters ist.

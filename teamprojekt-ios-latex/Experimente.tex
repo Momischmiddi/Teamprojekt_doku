@@ -4,7 +4,7 @@
 \section{Vereinfachte Kalibrierung}
 \label{sec:vereinfachtekalib}
 
-Eine andere M"oglichkeit, als in \ref{sec:kalibrierung} erl"autert, eine Kamera zu kalibrieren, ist mit Hilfe eines rechteckigen Kalibrierobjektes. In unserem Fall handelt es sich, wie in \ref{fig:klammern} zu sehen ist, um die Verpackung von Heftklammern.
+Eine andere M"oglichkeit, als die Kalibrierung mittels eines Schachbretts, wie sie in \ref{sec:kalibrierung} erl"autert wurde, ist mit Hilfe eines rechteckigen Kalibrierobjektes. In unserem Fall handelt es sich, wie in \ref{fig:klammern} zu sehen ist, um die Verpackung von Heftklammern.
  
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{bilder/experimentcalib}
@@ -118,7 +118,7 @@ Die Formel \ref{eq:tiefe} wurde mit folgendem Experiment validiert:
 \end{figure}
 
 \noindent Auf den zwei Bildern der Szene wurden hier vorerst h"andisch, dann mittels des SIFT-Algorithmus Referenzpunkte ermittelt, zu denen die Tiefe berechnet werden sollte.\newline
-\noindent Mittels eines selbst geschriebenem Algorithmus, der Werte mit im Mittel großem $z$ wei"slich und Werte mit im Mittel kleinem $z$ hellblau einf"arbt, kann man sich die Informationen zur Tiefe auf einem Bild darstellen. In \ref{fig:depthpoints} kann man gut erkennen, dass Objekte, die n"aher an der Kamera stehen, mit einem hellen blau markiert sind. Objekte, die weiter entfernt sind, mit einem wei"slichem Farbton.\newline
+\noindent Mittels eines selbst geschriebenem Algorithmus, der Werte mit großem $z$ wei"slich und Werte mit kleinem $z$ hellblau einf"arbt, kann man sich die Informationen zur Tiefe auf einem Bild darstellen. In \ref{fig:depthpoints} kann man gut erkennen, dass Objekte, die n"aher an der Kamera stehen, mit einem hellen Blau markiert sind. Objekte, die weiter entfernt sind, mit einem wei"slichem Farbton.\newline
 \noindent Dieses Verfahren der indirekten Bestimmung der Tiefeninformationen ist jedoch anfällig für Messfehler in den Bildposition. Die Fehlerfortpflanzung über die Werte $x$, $y$ und $z$ wird mit Hilfe des Gaußschen Fehlerfortpflanzungsgesetzes, welches den Einfluss mehrerer fehlerbehafteter Eingangsgrößen auf eine zu schätzende Ausgangsgröße beschreibt, berechnet.
 Wird die Varianz der Ausgangsgröße $y$ über die fehlerbehafteten Eingangsgrößen $x_{1}$ bis $x_{n}$  abgeschätzt, lautet die allgemeine Form des Gaußschen Fehlerfortpflanzungsgesetzes:
 
