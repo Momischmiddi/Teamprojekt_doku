@@ -37,7 +37,7 @@ $\Delta x'$ und $\Delta y'$ sind die L"angen der Seiten des Kalibrierobjekts in 
 \end{figure}
 
 \noindent Wie in \ref{fig:simplecalib} zu sehen ist, muss das Kalibrierobjekt senkrecht auf eine planare Oberfl"ache gestellt werden. So auch die Kamera. Die Kamera muss dann so ausgerichtet werden, dass das Objekt im Bild genau zentriert und entlang der Bildzeilen und -spalten ausgerichtet ist \cite{CVF}.\newline
-Obwohl diese Kalibrierung sehr ungenau erscheint, wurde ein dennoch relativ geringer Reprojection-Error errechnet. Der durch die in \ref{sec:kalibrierung} beschriebene Methode war dennoch besser.
+Obwohl diese Kalibrierung sehr ungenau erscheint, wurde dennoch ein relativ geringer Reprojection-Error errechnet. Der Fehler bei der in \ref{sec:kalibrierung} beschriebene Methode war jedoch besser.
 
 \section{Fehlerfortpflanzung}
 \label{sec:fehlerfortpflanzungtiefen}
@@ -73,8 +73,8 @@ x = B-z \frac{x'_{2}}{f}
 y = -z \frac{y'_{2}}{f}
 \end{equation}
 
-\noindent Aus den vereinfachten Formeln \ref{eq:one}, \ref{eq:two}, \ref{eq:three} und \ref{eq:four}, ist es ersichtlich, dass ein Raumpunkt in beiden Bildern die gleiche $y$-Koordinate aufweist, sich jedoch normalerweise in der $x$-Koordinate unterscheidet. Diese Differenz wird als $x$-Parallaxe 
-$\rho_{x} = x_{1} - x_{2}$ oder Disparität $D$ bezeichnet.\newline
+\noindent Aus den vereinfachten Formeln \ref{eq:one}, \ref{eq:two}, \ref{eq:three} und \ref{eq:four}, ist ersichtlich, dass ein Raumpunkt in beiden Bildern die gleiche $y$-Koordinate aufweist, sich jedoch normalerweise in der $x$-Koordinate unterscheidet. Diese Differenz wird als $x$-Parallaxe 
+$\rho_{x} = x_{1} - x_{2}$ oder Disparität $d$ bezeichnet.\newline
 \noindent Durch Gleichsetzen der Formeln \ref{eq:one} – \ref{eq:four} für linkes und rechtes Bild, erhält man folgende Formel zur Berechnung der Tiefeninformation:
 
 \begin{equation}\label{eq:tiefe}
@@ -120,8 +120,8 @@ Die Formel \ref{eq:tiefe} wurde mit folgendem Experiment validiert:
 \end{figure}
 
 \noindent Auf den zwei Bildern der Szene wurden hier vorerst h"andisch, dann mittels des SIFT-Algorithmus Referenzpunkte ermittelt, zu denen die Tiefe berechnet werden sollte.\newline
-\noindent Mittels eines selbst geschriebenem Algorithmus, der Werte mit großem $z$ wei"slich und Werte mit kleinem $z$ hellblau einf"arbt, kann man sich die Informationen zur Tiefe auf einem Bild darstellen. In \ref{fig:depthpoints} kann man gut erkennen, dass Objekte, die n"aher an der Kamera stehen, mit einem hellen Blau markiert sind. Objekte, die weiter entfernt sind, mit einem wei"slichem Farbton.\newline
-\noindent Dieses Verfahren der indirekten Bestimmung der Tiefeninformationen ist jedoch anfällig für Messfehler in den Bildposition. Die Fehlerfortpflanzung über die Werte $x$, $y$ und $x$ wird mit Hilfe des Gaußschen Fehlerfortpflanzungsgesetzes, welches den Einfluss mehrerer fehlerbehafteter Eingangsgrößen auf eine zu schätzende Ausgangsgröße beschreibt, berechnet.
+\noindent Mittels eines selbst geschriebenen Algorithmus, der Werte mit großem $z$ wei"slich und Werte mit kleinem $z$ hellblau einf"arbt, kann die Informationen zur Tiefe auf einem Bild dargestellt werden. In \ref{fig:depthpoints} kann man gut erkennen, dass Objekte, die n"aher an der Kamera stehen, mit einem hellen Blau markiert sind. Objekte, die weiter entfernt sind, mit einem wei"slichem Farbton.\newline
+\noindent Dieses Verfahren der indirekten Bestimmung der Tiefeninformationen ist jedoch anfällig für Messfehler in den Bildpositionen. Die Fehlerfortpflanzung über die Werte $x$, $y$ und $z$ wird mit Hilfe des Gaußschen Fehlerfortpflanzungsgesetzes, welches den Einfluss mehrerer fehlerbehafteter Eingangsgrößen auf eine zu schätzende Ausgangsgröße beschreibt, berechnet.
 Wird die Varianz der Ausgangsgröße $y$ über die fehlerbehafteten Eingangsgrößen $x_{1}$ bis $x_{n}$  abgeschätzt, lautet die allgemeine Form des Gaußschen Fehlerfortpflanzungsgesetzes:
 
 \begin{equation}
@@ -171,7 +171,7 @@ Zur Genauigkeitsbeurteilung haben wir drei Mal das gleiche Objekt in jeweils ein
 \label{sec:kalibbeide}
 
 Durch Aufstellen eines zweiten identischen Stereokamerasystems gegenüber des bisher beschriebenen Systems (s. \ref{fig:abstandsmessung}) sollte die bisher in der generierten Punktewolke fehlende Rückansicht des Helikopters in der Punktewolke visualisiert werden. Auf diese Weise sollte also eine 360\degree \space 3D-Ansicht einer Szene generiert werden. Zunächst musste das zweite System entsprechend dem Vorgehen für das erste System kalibriert werden, bevor versucht werden konnte, die beiden System zueinander kalibrieren zu können, d.h. die Rotation und Translation der beiden Systeme zueinander zu bestimmen. Dies ist nötig, um die beiden separaten Punktewolken in ein gemeinsames Koordinatensystem überführen zu können.\newline
-\noindent Zur Kalibrierung der beiden Systeme zueinander wurden mehrere verschiedene Ansätze in Betracht gezogen und getestet, um Korrespondenzpunkte im 3-dimensionalen Raum berechnen zu können. Mithilfe des Algorithmus Iterative Closest Points, welcher in \ref{sec:icp} erl"autert wird, sollten aus diesen 3D-Koordinaten die Rotation und Translation der Systeme zueinander bestimmt werden.\newline
+\noindent Zur Kalibrierung der beiden Systeme zueinander wurden mehrere verschiedene Ansätze in Betracht gezogen und getestet, um Korrespondenzpunkte im 3-dimensionalen Raum berechnen zu können. Mithilfe des Algorithmus ''Iterative Closest Points'' (ICP), welcher in \ref{sec:icp} erl"autert wird, sollten aus diesen 3D-Koordinaten die Rotation und Translation der Systeme zueinander bestimmt werden.\newline
 \noindent Folgende Ansätze wurden in Betracht gezogen:
 
 \begin{enumerate}
@@ -181,8 +181,8 @@ Durch Aufstellen eines zweiten identischen Stereokamerasystems gegenüber des bi
 	\item Aufstellen eines Objektes mit mehreren Eckpunkten, die von beiden Systemen sichtbar sind. Aus den Aufnahmen sollten dann händisch die 2D-Koordinaten bestimmt und mit den Formeln 
 	\ref{eq:one} - \ref{eq:tiefe} die 3D-Repräsentation des Punkts berechnet werden. Dieser Ansatz wurde wegen des hohen manuellen Aufwands zunächst nicht weiterverfolgt und als Notlösung, falls keine bessere Variante gefunden werden könnte, verbucht. 
 	
-	\item Als am vielversprechendsten erwies sich der Ansatz mit einem beidseitig bedruckten Schachbrettmuster zu kalibrieren. Dabei müssen die Eckpunkte des Schachbretts auf Vorder- und Rückseite möglichst exakt übereinander liegen, dies muss bereits beim Druck berücksichtigt werden. Von dem Schachbrettmuster wird dann von beiden Systemen eine Aufnahme gemacht, diese rektifiziert und mit der aus der Kamera-Kalibrierung bereits bekannten OpenCV-Methode \textit{findChessBoardCorners} die Bildkoordinaten der Eckpunkte bestimmt. Aus diesen Bildkoordinaten können anschließend erneut mit den Formeln \ref{eq:one} - \ref{eq:tiefe} die 3D-Koordinaten mehrerer identischer Punkte für die beiden System berechnet werden. \newline 
-	\noindent Mithilfe des ICP konnten die beiden 3D-Punktewolken der beiden Schachbrettmuster auch erfolgreich in eine Ebene transformiert werden, also die Translation der beiden Systeme zueinander bestimmt werden. Problematisch war jedoch die Bestimmung der Rotation, da die Punktewolken des Schachbretts nahezu symmetrisch sind und deshalb die 180\degree-Rotation nicht erkannt wird. Eigentlich müssten die jeweils oberen linken Ecken des Schachbrettmusters aus beiden Systemen aufeinander gemappt werden. Allerdings werden durch den ICP die linke obere Ecke des Schachbrettmusters aus dem linken System auf die rechte obere Ecke der Aufnahme aus dem rechten System aufeinander gemappt, wodurch keine Rotation erkannt wird. Bei einem anderen Setup der Stereosysteme zueinander wird das Schachbrettmuster nicht mehr gleichzeitig von beiden Systemen erkannt, weshalb das Problem dadurch ebenfalls nicht gelöst werden kann.
+	\item Als am vielversprechendsten erwies sich der Ansatz mit einem beidseitig bedruckten Schachbrettmuster zu kalibrieren. Dabei müssen die Eckpunkte des Schachbretts auf Vorder- und Rückseite möglichst exakt übereinander liegen. Dies muss bereits beim Druck berücksichtigt werden. Von dem Schachbrettmuster wird dann von beiden Systemen eine Aufnahme gemacht, diese rektifiziert und mit der aus der Kamera-Kalibrierung bereits bekannten OpenCV-Methode \textit{findChessBoardCorners} die Bildkoordinaten der Eckpunkte bestimmt. Aus diesen Bildkoordinaten können anschließend erneut mit den Formeln \ref{eq:one} - \ref{eq:tiefe} die 3D-Koordinaten mehrerer identischer Punkte für die beiden System berechnet werden. \newline 
+	\noindent Mithilfe des ICP konnten die beiden 3D-Punktewolken der beiden Schachbrettmuster auch erfolgreich in eine Ebene transformiert werden, also die Translation der beiden Systeme zueinander bestimmt werden. Problematisch war jedoch die Bestimmung der Rotation, da die Punktewolken des Schachbretts nahezu symmetrisch sind und deshalb die 180\degree-Rotation nicht erkannt wird. Eigentlich müssten die jeweils oberen linken Ecken des Schachbrettmusters aus beiden Systemen aufeinander gemappt werden. Allerdings werden durch den ICP die linke obere Ecke des Schachbrettmusters aus dem linken System auf die rechte obere Ecke der Aufnahme aus dem rechten System abgebildet, wodurch keine Rotation erkannt wird. Bei einem anderen Setup der Stereosysteme zueinander wird das Schachbrettmuster nicht mehr gleichzeitig von beiden Systemen erkannt, weshalb das Problem dadurch ebenfalls nicht gelöst werden kann.
 	
 \end{enumerate}
 
@@ -195,25 +195,25 @@ Durch Aufstellen eines zweiten identischen Stereokamerasystems gegenüber des bi
 \subsection{ICP}
 \label{sec:icp}
 
-Der Iterative Closest Point Algorithmus (ICP Algorithmus) ist eine Methode um zwei Punktewolken aneinander anzupassen \cite{icp1} \cite{icp2}.
-Hierzu minimiert der Algorithmus den Euklidischen Abstand $d$ von korrespondieren Punkten $q$ und $p$ in der Punktewolke:
+Der ICP Algorithmus ist eine Methode um zwei Punktewolken aneinander anzupassen \cite{icp1} \cite{icp2}.
+Hierzu minimiert der Algorithmus den euklidischen Abstand $d$ von korrespondieren Punkten $q$ und $p$ in der Punktewolke:
 
 \begin{equation}
 d(q,p) = \sqrt{(q_{1}-p_{1})^{2} + ... + 
 	(q_{n} -p_{n})^{2}}
 \end{equation}
 
-\noindent Die Zuordnen von Punktepaaren, um so korrespondieren Punkte zu finden, wird mittels des Nearest Neighbour Algorithmus vorgenommen. Dieser nimmt die beiden Punktewolken entgegen und liefert ein Feld mit Indizes zurück, welche die korrespondieren Punkte angeben. In unserem Projekt wird er in der optimierten Variante verwendet. Dieser beschreibt die Punktewolken in einer Baumstruktur.
+\noindent Die Zuordnung von Punktepaaren, um so korrespondieren Punkte zu finden, wird mittels des Nearest Neighbour Algorithmus vorgenommen. Dieser nimmt die beiden Punktewolken entgegen und liefert ein Feld mit Indizes zurück, welche die korrespondieren Punkte angeben. In unserem Projekt wird er in der optimierten Variante verwendet. Dieser beschreibt die Punktewolken in einer Baumstruktur.
 
 \subsubsection{Ablauf}
 \label{ss:ablauf}
 
 Vorab wird angenommen, dass die Punktewolken näherungsweise aufeinander ausgerichtet wurden und als
-initiale Transformation $T$ beschrieben wird. Diese Transformation wird auf die eine Punktewolke angewendet. Die daraus resultierende, wird verwendet um mit Hilfe des Nearest Neighbour Algorithmus die korrespondierenden Punktepaare zu finden. 
+initiale Transformation $T$ beschrieben wird. Diese Transformation wird auf die eine Punktewolke angewandt. Die daraus resultierende wird verwendet, um mit Hilfe des Nearest Neighbour Algorithmus die korrespondierenden Punktepaare zu finden. 
 Als Gütemaß für die aktuelle Transformation wird die Summe der quadratischen Distanzen genommen. Diese gilt es zu minimieren. Aus diesen Ergebnissen werden dann die neuen Transformationsparameter abgeleitet \cite{icp3}:
 
 \begin{equation}
 T \leq argmin (\sum || d(q_{n}, p_{n}) || ^{2})
 \end{equation}
 
-\noindent Diese Schritte werden nun so oft wiederholt bei ein akzeptables Optimum gefunden ist. Der ICP Algorithmus terminiert also, sobald entweder ein definierter Schwellwert für das Gütemaß überschritten, oder eine definierte Anzahl an Iterationen erreicht wurde.
+\noindent Diese Schritte werden nun so oft wiederholt bis ein akzeptables Optimum gefunden ist. Der ICP Algorithmus terminiert also, sobald entweder ein definierter Schwellwert für das Gütemaß überschritten, oder eine definierte Anzahl an Iterationen erreicht wurde.

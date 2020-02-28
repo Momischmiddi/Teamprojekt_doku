@@ -23,7 +23,7 @@
 \bigskip
 
 \noindent
-Ziel des Projekts war das r"aumliche Detektieren eines Modellhubschraubers. Die Detektion soll unter Laborbedingungen stattfinden, das hei"st, der Helikopter befindet sich vor einer wei"sen Wand.
+Ziel des Projekts war das r"aumliche Detektieren eines Modellhubschraubers. Die Detektion soll unter Laborbedingungen stattfinden. Das hei"st, der Helikopter befindet sich vor einer wei"sen Wand.
 Zur Lokalisierung des Helikopters im Raum soll zun"achst eine 3D-Punktewolke der Szene generiert und daraus mit Hilfe des Clustering-Algorithmus k-Means die Position des Helikopters bestimmt werden. Auch die Tiefe (Entfernung zur Kamera) des Helikopters soll ermittelt werden. Die Detektion soll mit Hilfe von zwei oder mehr Kameras des Herstellers Point Grey, die "uber eine FireWire-Schnittstelle mit einem Computer verbunden sind, stattfinden.
 
 \begin{figure}[H]
@@ -32,7 +32,7 @@ Zur Lokalisierung des Helikopters im Raum soll zun"achst eine 3D-Punktewolke der
 \end{figure}
 
 \noindent Mittels zwei Kameras, die auf einer Ebene angebracht sind (Stereonormalfall), kann der Mittelpunkt des Helikopters und dessen Abstand zur Kamera ermittelt werden.\newline
-Zun"achst m"ussen daf"ur die Kameras einzeln und anschlie"send zueinander. Das Kalibrieren erfolgt "uber ein Schachbrett-Muster. Sind die Kameras zueinander kalibriert, kann mittels eines Feature-Detektors eine Punktewolke der Szene generiert und der Mittelpunkt des Helikopters berechnet werden.
+Zun"achst m"ussen daf"ur die Kameras einzeln und anschlie"send zueinander kalibriert werden. Das Kalibrieren erfolgt "uber ein Schachbrett-Muster. Sind die Kameras zueinander kalibriert, kann mittels eines Feature-Detektors eine Punktewolke der Szene generiert und der Mittelpunkt des Helikopters berechnet werden.
 
 \begin{figure}%
 	\centering
