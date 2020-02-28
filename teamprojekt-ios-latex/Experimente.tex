@@ -179,7 +179,7 @@ Durch Aufstellen eines zweiten identischen Stereokamerasystems gegenüber des bi
 	\item Aufstellen eines Objektes mit mehreren Eckpunkten, die von beiden Systemen sichtbar sind. Aus den Aufnahmen sollten dann händisch die 2D-Koordinaten bestimmt und mit den Formeln 
 	\ref{eq:one} - \ref{eq:four} die 3D-Repräsentation des Punkts berechnet werden. Dieser Ansatz wurde wegen des hohen manuellen Aufwands zunächst nicht weiterverfolgt und als Notlösung, falls keine bessere Variante gefunden werden könnte, verbucht. 
 	
-	\item Als am vielversprechendsten erwies sich der Ansatz mit einem beidseitig bedruckten Schachbrettmuster zu kalibrieren. Dabei müssen die Eckpunkte des Schachbretts auf Vorder- und Rückseite möglichst exakt übereinander liegen, dies muss bereits beim Druck berücksichtigt werden \cite{paper}. Von dem Schachbrettmuster wird dann von beiden Systemen eine Aufnahme gemacht, diese rektifiziert und mit der aus der Kamera-Kalibrierung bereits bekannten OpenCV-Methode \textit{findChessBoardCorners} die Bildkoordinaten der Eckpunkte bestimmt. Aus diesen Bildkoordinaten können anschließend erneut mit den Formeln xyz die 3D-Koordinaten mehrerer identischer Punkte für die beiden System berechnet werden. \newline 
+	\item Als am vielversprechendsten erwies sich der Ansatz mit einem beidseitig bedruckten Schachbrettmuster zu kalibrieren. Dabei müssen die Eckpunkte des Schachbretts auf Vorder- und Rückseite möglichst exakt übereinander liegen, dies muss bereits beim Druck berücksichtigt werden. Von dem Schachbrettmuster wird dann von beiden Systemen eine Aufnahme gemacht, diese rektifiziert und mit der aus der Kamera-Kalibrierung bereits bekannten OpenCV-Methode \textit{findChessBoardCorners} die Bildkoordinaten der Eckpunkte bestimmt. Aus diesen Bildkoordinaten können anschließend erneut mit den Formeln xyz die 3D-Koordinaten mehrerer identischer Punkte für die beiden System berechnet werden. \newline 
 	\noindent Mithilfe des ICP konnten die beiden 3D-Punktewolken der beiden Schachbrettmuster auch erfolgreich in eine Ebene transformiert werden, also die Translation der beiden Systeme zueinander bestimmt werden. Problematisch war jedoch die Bestimmung der Rotation, da die Punktewolken des Schachbretts nahezu symmetrisch sind und deshalb die 180\degree-Rotation nicht erkannt wird. Eigentlich müssten die jeweils oberen linken Ecken des Schachbrettmusters aus beiden Systemen aufeinander gemappt werden. Allerdings werden durch den ICP die linke obere Ecke des Schachbrettmusters aus dem linken System auf die rechte obere Ecke der Aufnahme aus dem rechten System aufeinander gemappt, wodurch keine Rotation erkannt wird. Bei einem anderen Setup der Stereosysteme zueinander wird das Schachbrettmuster nicht mehr gleichzeitig von beiden Systemen erkannt, weshalb das Problem dadurch ebenfalls nicht gelöst werden kann.
 	
 \end{enumerate}
@@ -190,5 +190,28 @@ Durch Aufstellen eines zweiten identischen Stereokamerasystems gegenüber des bi
 	\label{fig:icpresult}
 \end{figure}
 
-\section{ICP}
+\subsection{ICP}
 \label{sec:icp}
+
+Der Iterative Closest Point Algorithmus (ICP Algorithmus) ist eine Methode um zwei Punktewolken aneinander anzupassen.
+Hierzu minimiert der Algorithmus den Euklidischen Abstand $d$ von korrespondieren Punkten $q$ und $p$ in der Punktewolke:
+
+\begin{equation}
+d(q,p) = \sqrt{(q_{1}-p_{1})^{2} + ... + 
+	(q_{n} -p_{n})^{2}}
+\end{equation}
+
+\noindent Die Zuordnen von Punktepaaren, um so korrespondieren Punkte zu finden, wird mittels des Nearest Neighbour Algorithmus vorgenommen. Dieser nimmt die beiden Punktewolken entgegen und liefert ein Feld mit Indizes zurück, welche die korrespondieren Punkte angeben. In unserem Projekt wird er in der optimierten Variante verwendet. Dieser beschreibt die Punktewolken in einer Baumstruktur.
+
+\subsubsection{Ablauf}
+\label{ss:ablauf}
+
+Vorab wird angenommen, dass die Punktewolken näherungsweise aufeinander ausgerichtet wurden und als
+initiale Transformation $T$ beschrieben wird. Diese Transformation wird auf die eine Punktewolke angewendet. Die daraus resultierende, wird verwendet um mit Hilfe des Nearest Neighbour Algorithmus die korrespondierenden Punktepaare zu finden. 
+Als Gütemaß für die aktuelle Transformation wird die Summe der quadratischen Distanzen genommen. Diese gilt es zu minimieren. Aus diesen Ergebnissen werden dann die neuen Transformationsparameter abgeleitet:
+
+\begin{equation}
+Formel..
+\end{equation}
+
+\noindent Diese Schritte werden nun so oft wiederholt bei ein akzeptables Optimum gefunden ist. Der ICP Algorithmus terminiert also, sobald entweder ein definierter Schwellwert für das Gütemaß überschritten, oder eine definierte Anzahl an Iterationen erreicht wurde.

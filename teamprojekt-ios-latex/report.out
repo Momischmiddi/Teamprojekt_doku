@@ -27,6 +27,6 @@
 \BOOKMARK [1][-]{section.5.2}{Fehlerfortpflanzung}{chapter.5}% 27
 \BOOKMARK [1][-]{section.5.3}{Genauigkeitsabsch\344tzung des Systems}{chapter.5}% 28
 \BOOKMARK [1][-]{section.5.4}{Kalibrierung der beiden Stereokamerasysteme zueinander}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.5}{ICP}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.4.1}{ICP}{section.5.4}% 30
 \BOOKMARK [0][-]{chapter.6}{Probleme}{}% 31
 \BOOKMARK [0][-]{chapter.7}{Fazit}{}% 32

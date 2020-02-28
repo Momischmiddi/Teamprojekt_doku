@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  27 FEB 2020 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  28 FEB 2020 13:02
 entering extended mode
 **./report.tex
 (report.tex
@@ -1801,7 +1801,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 ...hapter}{\numberline {7}Fazit}{}{chapter.7}
+l.67 ...hapter}{\numberline {7}Fazit}{}{chapter.7}
                                                    [5
 
 ])
@@ -2198,9 +2198,6 @@ l.167
                    \relax 
 l.181 	
         [30 <./bilder/abstandsmessung.png>]
-
-LaTeX Warning: Citation 'paper' on page 31 undefined on input line 182.
-
 <bilder/icpresult.png, id=513, 311.1625pt x 156.585pt>
 File: bilder/icpresult.png Graphic file (type png)
 <use bilder/icpresult.png>
@@ -2216,7 +2213,13 @@ tifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Probleme} [32 <./bilder/icpresult.png>]
+            {Probleme} [32 <./bilder/icpresult.png>]pdfTeX warning (ext4): dest
+ination with the same identifier (name{page.}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Probleme} [33]
 Kapitel 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -2234,7 +2237,7 @@ een already used, duplicate ignored
                    \relax 
 l.8 \noindent
               Des Weiteren war es uns oft nicht möglich aus der OpenCV Doku...
-[33
+[34
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -2246,14 +2249,14 @@ age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Fazit} [34]
+            {Fazit} [35]
 Kapitel 7.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.64 \listoffigures
-                    [35
+                    [36
 
 ]
 Overfull \hbox (148.5058pt too wide) in paragraph at lines 64--64
@@ -2272,7 +2275,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.64 \listoffigures
-                    [36
+                    [37
 
 ]
 Overfull \hbox (54.27911pt too wide) in paragraph at lines 64--64
@@ -2286,7 +2289,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.64 \listoffigures
-                    [37] (report.lof)
+                    [38] (report.lof)
 \tf@lof=\write7
 \openout7 = `report.lof'.
 
@@ -2295,7 +2298,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.66 \end{document}
-                    [38
+                    [39
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
@@ -2304,7 +2307,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 872DA800029CEEABA4BC0DFDE12DCAD2;2037.
+(rerunfilecheck)             Checksum: 48D491ABE183C74444F1809D0114E21E;2044.
 
 
 LaTeX Warning: There were undefined references.
@@ -2320,10 +2323,10 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29871 strings out of 493305
- 549414 string characters out of 3129803
- 1016276 words of memory out of 3000000
- 32709 multiletter control sequences out of 15000+200000
+ 29879 strings out of 493305
+ 549563 string characters out of 3129803
+ 1016312 words of memory out of 3000000
+ 32715 multiletter control sequences out of 15000+200000
  60929 words of font info for 76 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  69i,10n,74p,1552b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2343,9 +2346,9 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/morit/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on report.pdf (38 pages, 13833226 bytes).
+Output written on report.pdf (39 pages, 13837494 bytes).
 PDF statistics:
- 806 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 500000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
  429 words of extra memory for PDF output out of 10000 (max. 10000000)
 
