@@ -69,6 +69,52 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{icp3}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=BW}{%
+         family={Burgard},
+         familyi={B\bibinitperiod},
+         given={Wolfram},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Stachniss},
+         familyi={S\bibinitperiod},
+         given={Cyrill},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bennewitz},
+         familyi={B\bibinitperiod},
+         given={Maren},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Arras},
+         familyi={A\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BW+1}
+    \strng{fullhash}{BWSCBMAK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Iterative Closest Point Algorithm}
+    \verb{url}
+    \verb \url{https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&
+    \verb ved=2ahUKEwi8s6WlwfLnAhXGeZoKHetUDj8QFjAAegQIARAB&url=https%3A%2F%2Fw
+    \verb ww.techfak.uni-bielefeld.de%2F~rhaschke%2Flehre%2FWS04%2Fhumanoids%2F
+    \verb ausarbeitung%2FStereoalgorithmen1.pdf&usg=AOvVaw2TnHMxL7VlIVDFfRjGsHp
+    \verb d}
+    \endverb
+    \field{urlday}{26}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{HAW}{online}{}
     \name{author}{1}{}{%
       {{hash=FG}{%
@@ -320,6 +366,29 @@
     \field{urlyear}{2020}
   \endentry
 
+  \entry{icp2}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={OpenCV},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{ICP Class Reference}
+    \verb{url}
+    \verb https://docs.opencv.org/3.4/dc/d9b/classcv_1_1ppf__match__3d_1_1ICP.h
+    \verb tml
+    \endverb
+    \field{urlday}{27}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{Tu}{online}{}
     \name{author}{1}{}{%
       {{hash=uSZRS}{%
@@ -427,6 +496,28 @@
     \field{title}{Epipolargeometrie}
     \verb{url}
     \verb https://de.wikipedia.org/wiki/Epipolargeometrie#8-Punkt-Algorithmus
+    \endverb
+    \field{urlday}{27}
+    \field{urlmonth}{02}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{icp1}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Iterative Closest Point Algorithm}
+    \verb{url}
+    \verb https://de.wikipedia.org/wiki/Iterative_Closest_Point_Algorithm
     \endverb
     \field{urlday}{27}
     \field{urlmonth}{02}

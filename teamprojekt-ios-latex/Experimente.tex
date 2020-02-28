@@ -193,7 +193,7 @@ Durch Aufstellen eines zweiten identischen Stereokamerasystems gegenüber des bi
 \subsection{ICP}
 \label{sec:icp}
 
-Der Iterative Closest Point Algorithmus (ICP Algorithmus) ist eine Methode um zwei Punktewolken aneinander anzupassen.
+Der Iterative Closest Point Algorithmus (ICP Algorithmus) ist eine Methode um zwei Punktewolken aneinander anzupassen \cite{icp1} \cite{icp2}.
 Hierzu minimiert der Algorithmus den Euklidischen Abstand $d$ von korrespondieren Punkten $q$ und $p$ in der Punktewolke:
 
 \begin{equation}
@@ -208,7 +208,7 @@ d(q,p) = \sqrt{(q_{1}-p_{1})^{2} + ... +
 
 Vorab wird angenommen, dass die Punktewolken näherungsweise aufeinander ausgerichtet wurden und als
 initiale Transformation $T$ beschrieben wird. Diese Transformation wird auf die eine Punktewolke angewendet. Die daraus resultierende, wird verwendet um mit Hilfe des Nearest Neighbour Algorithmus die korrespondierenden Punktepaare zu finden. 
-Als Gütemaß für die aktuelle Transformation wird die Summe der quadratischen Distanzen genommen. Diese gilt es zu minimieren. Aus diesen Ergebnissen werden dann die neuen Transformationsparameter abgeleitet:
+Als Gütemaß für die aktuelle Transformation wird die Summe der quadratischen Distanzen genommen. Diese gilt es zu minimieren. Aus diesen Ergebnissen werden dann die neuen Transformationsparameter abgeleitet \cite{icp3}:
 
 \begin{equation}
 T \leq argmin (\sum || d(q_{n}, p_{n}) || ^{2})
