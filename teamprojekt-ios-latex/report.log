@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  28 FEB 2020 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.5)  28 FEB 2020 13:36
 entering extended mode
 **./report.tex
 (report.tex
@@ -1988,4 +1988,372 @@ net / figure / The -[] reprojection -[] error -[] is -[] the -[]
 
 File: bilder/camerasystem.png Graphic file (type png)
 <use bilder/camerasystem.png>
-Package pdftex.def Info: bilde
+Package pdftex.def Info: bilder/camerasystem.png  used on input line 70.
+(pdftex.def)             Requested size: 170.71652pt x 128.03845pt.
+<bilder/szene.png, id=341, 125.46875pt x 142.03062pt>
+File: bilder/szene.png Graphic file (type png)
+<use bilder/szene.png>
+Package pdftex.def Info: bilder/szene.png  used on input line 72.
+(pdftex.def)             Requested size: 170.71652pt x 193.27393pt.
+<bilder/baseline.png, id=345, 106.3975pt x 92.345pt>
+File: bilder/baseline.png Graphic file (type png)
+<use bilder/baseline.png>
+Package pdftex.def Info: bilder/baseline.png  used on input line 81.
+(pdftex.def)             Requested size: 159.59584pt x 138.51714pt.
+
+Underfull \hbox (badness 2521) in paragraph at lines 84--85
+[]\T1/phv/m/n/10 Quelle: [][]$\T1/cmtt/m/n/10 https : / / opencv -[] python -[]
+ tutroals . readthedocs . io / en / latest / py _ tutorials / py _
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 
+      [17 <./bilder/repro_error.png (PNG copy)>]pdfTeX warning (ext4): destinat
+ion with the same identifier (name{page.}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.90 
+      [18 <./bilder/szene.png> <./bilder/baseline.png>]
+<bilder/nonstereo.png, id=367, 2577.63pt x 963.6pt>
+File: bilder/nonstereo.png Graphic file (type png)
+<use bilder/nonstereo.png>
+Package pdftex.def Info: bilder/nonstereo.png  used on input line 104.
+(pdftex.def)             Requested size: 386.62782pt x 144.53375pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.108 
+       [19]
+<bilder/nonparallal.png, id=374, 197.73875pt x 310.15875pt>
+File: bilder/nonparallal.png Graphic file (type png)
+<use bilder/nonparallal.png>
+Package pdftex.def Info: bilder/nonparallal.png  used on input line 110.
+(pdftex.def)             Requested size: 79.09409pt x 124.0613pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.121 
+       [20 <./bilder/nonstereo.png> <./bilder/nonparallal.png>]
+<bilder/heli_left.png, id=391, 96.86188pt x 72.77188pt>
+File: bilder/heli_left.png Graphic file (type png)
+<use bilder/heli_left.png>
+Package pdftex.def Info: bilder/heli_left.png  used on input line 136.
+(pdftex.def)             Requested size: 170.71652pt x 128.26097pt.
+<bilder/heli_right.png, id=392, 96.86188pt x 74.77937pt>
+File: bilder/heli_right.png Graphic file (type png)
+<use bilder/heli_right.png>
+Package pdftex.def Info: bilder/heli_right.png  used on input line 138.
+(pdftex.def)             Requested size: 170.71652pt x 131.79922pt.
+<bilder/Tiefenkarte.png, id=394, 96.86188pt x 74.77937pt>
+File: bilder/Tiefenkarte.png Graphic file (type png)
+<use bilder/Tiefenkarte.png>
+Package pdftex.def Info: bilder/Tiefenkarte.png  used on input line 146.
+(pdftex.def)             Requested size: 193.72324pt x 149.55838pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.150 
+       [21 <./bilder/heli_left.png> <./bilder/heli_right.png>]
+Overfull \hbox (3.43555pt too wide) in paragraph at lines 154--156
+\T1/phv/m/n/10.95 Ho-mo-ge-ni-sie-rung rück-gän-gig zu ma-chen und die ge-wünsc
+h-ten $\OML/cmm/m/it/10.95 x$\T1/phv/m/n/10.95 -, $\OML/cmm/m/it/10.95 y$\T1/ph
+v/m/n/10.95 -, und $\OML/cmm/m/it/10.95 z$\T1/phv/m/n/10.95 -Koordinaten
+ []
+
+<bilder/cloud_result.png, id=412, 256.45813pt x 192.21812pt>
+File: bilder/cloud_result.png Graphic file (type png)
+<use bilder/cloud_result.png>
+Package pdftex.def Info: bilder/cloud_result.png  used on input line 158.
+(pdftex.def)             Requested size: 256.45749pt x 192.21764pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.162 
+       [22 <./bilder/Tiefenkarte.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 \begin{equation}
+                       [23 <./bilder/cloud_result.png>]
+File: bilder/helicloud.png Graphic file (type png)
+<use bilder/helicloud.png>
+Package pdftex.def Info: bilder/helicloud.png  used on input line 190.
+(pdftex.def)             Requested size: 247.67468pt x 215.30383pt.
+) (Experimente.texpdfTeX warning (ext4): destination with the same identifier (
+name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Experimente} [24]
+Kapitel 5.
+<bilder/experimentcalib.png, id=435, 481.8pt x 361.35pt>
+File: bilder/experimentcalib.png Graphic file (type png)
+<use bilder/experimentcalib.png>
+Package pdftex.def Info: bilder/experimentcalib.png  used on input line 10.
+(pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \end{equation}
+                    [25
+
+ <./bilder/experimentcalib.png (PNG copy)>]
+<bilder/simple_calib.png, id=444, 401.5pt x 145.04187pt>
+File: bilder/simple_calib.png Graphic file (type png)
+<use bilder/simple_calib.png>
+Package pdftex.def Info: bilder/simple_calib.png  used on input line 31.
+(pdftex.def)             Requested size: 401.49901pt x 145.0415pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 \end{equation}
+                    [26 <./bilder/simple_calib.png>]
+<bilder/depth_left.png, id=465, 325.215pt x 243.91125pt>
+File: bilder/depth_left.png Graphic file (type png)
+<use bilder/depth_left.png>
+Package pdftex.def Info: bilder/depth_left.png  used on input line 94.
+(pdftex.def)             Requested size: 133.84424pt x 100.38387pt.
+<bilder/depth_right.png, id=466, 325.71687pt x 243.91125pt>
+File: bilder/depth_right.png Graphic file (type png)
+<use bilder/depth_right.png>
+Package pdftex.def Info: bilder/depth_right.png  used on input line 98.
+(pdftex.def)             Requested size: 133.84424pt x 100.23128pt.
+<bilder/depth_side.png, id=467, 325.71687pt x 243.91125pt>
+File: bilder/depth_side.png Graphic file (type png)
+<use bilder/depth_side.png>
+Package pdftex.def Info: bilder/depth_side.png  used on input line 102.
+(pdftex.def)             Requested size: 133.84424pt x 100.23128pt.
+<bilder/depth_result.png, id=471, 325.71687pt x 243.91125pt>
+File: bilder/depth_result.png Graphic file (type png)
+<use bilder/depth_result.png>
+Package pdftex.def Info: bilder/depth_result.png  used on input line 111.
+(pdftex.def)             Requested size: 200.75996pt x 150.34134pt.
+<bilder/depth_coord.png, id=472, 317.185pt x 232.87pt>
+File: bilder/depth_coord.png Graphic file (type png)
+<use bilder/depth_coord.png>
+Package pdftex.def Info: bilder/depth_coord.png  used on input line 115.
+(pdftex.def)             Requested size: 200.75996pt x 147.39821pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 
+       [27 <./bilder/depth_left.png> <./bilder/depth_right.png> <./bilder/depth
+_side.png>]
+<bilder/formel3.png, id=484, 303.63437pt x 51.19125pt>
+File: bilder/formel3.png Graphic file (type png)
+<use bilder/formel3.png>
+Package pdftex.def Info: bilder/formel3.png  used on input line 126.
+(pdftex.def)             Requested size: 303.63362pt x 51.19112pt.
+<bilder/fourone.png, id=488, 303.63437pt x 40.15pt>
+File: bilder/fourone.png Graphic file (type png)
+<use bilder/fourone.png>
+Package pdftex.def Info: bilder/fourone.png  used on input line 132.
+(pdftex.def)             Requested size: 303.63362pt x 40.14989pt.
+<bilder/fourtwo.png, id=489, 303.63437pt x 39.14626pt>
+File: bilder/fourtwo.png Graphic file (type png)
+<use bilder/fourtwo.png>
+Package pdftex.def Info: bilder/fourtwo.png  used on input line 136.
+(pdftex.def)             Requested size: 303.63362pt x 39.14615pt.
+<bilder/fourthree.png, id=490, 303.63437pt x 43.16125pt>
+File: bilder/fourthree.png Graphic file (type png)
+<use bilder/fourthree.png>
+Package pdftex.def Info: bilder/fourthree.png  used on input line 140.
+(pdftex.def)             Requested size: 303.63362pt x 43.16113pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.141 \end{equation}
+                     [28 <./bilder/depth_result.png> <./bilder/depth_coord.png>
+ <./bilder/formel3.png> <./bilder/fourone.png> <./bilder/fourtwo.png>]
+<bilder/abstandsmessung.png, id=499, 303.63437pt x 170.6375pt>
+File: bilder/abstandsmessung.png Graphic file (type png)
+<use bilder/abstandsmessung.png>
+Package pdftex.def Info: bilder/abstandsmessung.png  used on input line 163.
+(pdftex.def)             Requested size: 303.63362pt x 170.63707pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.167 
+       [29 <./bilder/fourthree.png>]pdfTeX warning (ext4): destination with the
+ same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.181 	
+        [30 <./bilder/abstandsmessung.png>]
+<bilder/icpresult.png, id=513, 311.1625pt x 156.585pt>
+File: bilder/icpresult.png Graphic file (type png)
+<use bilder/icpresult.png>
+Package pdftex.def Info: bilder/icpresult.png  used on input line 188.
+(pdftex.def)             Requested size: 311.16174pt x 156.58461pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.192 
+       [31]) (Probleme.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Probleme} [32 <./bilder/icpresult.png>]pdfTeX warning (ext4): dest
+ination with the same identifier (name{page.}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Probleme} [33]
+Kapitel 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 
+     [34
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+) (Fazit.tex
+Overfull \hbox (6.34894pt too wide) in paragraph at lines 12--1
+\T1/phv/m/n/10.95 Die für die Ent-wick-lung ver-wen-de-te IDE Spy-der hat sehr 
+be-grenz-te Debug-Möglichkeiten.
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Fazit} [35]
+Kapitel 7.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \listoffigures
+                    [36
+
+]
+Overfull \hbox (148.5058pt too wide) in paragraph at lines 64--64
+\T1/cmtt/m/n/10.95 com / url ? sa = t & rct = j & q = &esrc = s & source = web 
+& cd = 1 & ved = 2ahUKEwi8s6WlwfLnAhXGeZoKHetUDj8QFjAAegQIARAB &
+ []
+
+
+Overfull \hbox (131.53069pt too wide) in paragraph at lines 64--64
+\T1/cmtt/m/n/10.95 2FWS04 % 2Fhumanoids % 2Fausarbeitung % 2FStereoalgorithmen1
+ . pdf & usg = AOvVaw2TnHMxL7VlIVDFfRjGsHpd}$[][]
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \listoffigures
+                    [37
+
+]
+Overfull \hbox (54.27911pt too wide) in paragraph at lines 64--64
+[]\T1/phv/m/n/10.95 Wikipedia. \T1/phv/m/sl/10.95 Epi-po-lar-geo-me-trie\T1/phv
+/m/n/10.95 . \T1/phv/m/sc/10.95 url\T1/phv/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 
+https : / / de . wikipedia . org / wiki / Epipolargeometrie #
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \listoffigures
+                    [38] (report.lof)
+\tf@lof=\write7
+\openout7 = `report.lof'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.66 \end{document}
+                    [39
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+ (report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 48D491ABE183C74444F1809D0114E21E;2044.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                report
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'report.run.xml'.
+\openout1 = `report.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 29880 strings out of 493305
+ 549580 string characters out of 3129803
+ 1016355 words of memory out of 3000000
+ 32716 multiletter control sequences out of 15000+200000
+ 60929 words of font info for 76 fonts, out of 3000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 69i,10n,74p,1690b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\morit\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt1095.pk> <C:\Users\morit\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ectt1000.pk>{C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/e
+nc/dvips/base/8r.enc}<C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/morit/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/morit/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
+s/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Users/morit/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/morit/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/morit/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/morit/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on report.pdf (39 pages, 13838625 bytes).
+PDF statistics:
+ 811 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 429 words of extra memory for PDF output out of 10000 (max. 10000000)
+

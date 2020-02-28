@@ -1,0 +1,32 @@
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Aufgabenstellung und Zielsetzung}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Motivation}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Aufbau}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Projektplan}{}% 5
+\BOOKMARK [0][-]{chapter.3}{Technologien}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Software}{chapter.3}% 7
+\BOOKMARK [2][-]{subsection.3.1.1}{OpenCV}{section.3.1}% 8
+\BOOKMARK [2][-]{subsection.3.1.2}{scikit-learn}{section.3.1}% 9
+\BOOKMARK [2][-]{subsection.3.1.3}{Open3D}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.4}{PyCapture}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.5}{Spyder}{section.3.1}% 12
+\BOOKMARK [1][-]{section.3.2}{Hardware}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{Kameras}{section.3.2}% 14
+\BOOKMARK [0][-]{chapter.4}{Bildverarbeitung und Umsetzung}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Kalibrierung}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Genauigkeitsabsch\344tzung der Kalibrierung}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Stereokalibrierung}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.3.1}{Entzeichnung}{section.4.3}% 19
+\BOOKMARK [2][-]{subsection.4.3.2}{Rektifizierung}{section.4.3}% 20
+\BOOKMARK [1][-]{section.4.4}{Generierung einer Tiefenkarte}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.5}{Punktewolken-Generierung}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.6}{Lokalisierung des Helikopters}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.6.1}{k-Means}{section.4.6}% 24
+\BOOKMARK [0][-]{chapter.5}{Experimente}{}% 25
+\BOOKMARK [1][-]{section.5.1}{Vereinfachte Kalibrierung}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.2}{Fehlerfortpflanzung}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.3}{Genauigkeitsabsch\344tzung des Systems}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.4}{Kalibrierung der beiden Stereokamerasysteme zueinander}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.4.1}{ICP}{section.5.4}% 30
+\BOOKMARK [0][-]{chapter.6}{Probleme}{}% 31
+\BOOKMARK [0][-]{chapter.7}{Fazit}{}% 32
